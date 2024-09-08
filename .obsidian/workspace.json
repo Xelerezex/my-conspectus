@@ -11,11 +11,52 @@
             "id": "63982a5278006992",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1419fc82b4abc24e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6819030080af9102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "452248bce75af5f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -65,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.5
+    "width": 468.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -91,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md"
+              }
             }
           }
         ],
@@ -113,8 +156,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "63982a5278006992",
+  "active": "452248bce75af5f7",
   "lastOpenFiles": [
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть X. Автомат Мили и Мура/Часть X. Автомат Мили и Мура.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
+    "Notion/Алгоритмы-/Shunting yard algorithm-/Shunting yard algorithm-.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Освещение. Обзорная информация/Освещение. Обзорная информация.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Гомогенные Координаты/Гомогенные Координаты.md",
@@ -133,16 +182,10 @@
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей/Поворот на угол относительно осей.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра/Трансформация Окна Просмотра.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации Векторов Нормали/Трансформации Векторов Нормали.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Обзор пайплайна OpenGL/Обзор пайплайна OpenGL.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Математическа стоящая за Ортографической и Перспективной Проекцией/Математическа стоящая за Ортографической и Перспективной Проекцией.md",
-    "линейноек.md",
     "mapping_yp_yn 1.svg",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Заметки по тригонометрии/Заметки по тригонометрии.md",
     "dfa-minimization-example-6-1.svg",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Текстуры/Текстуры.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Шейдеры. Основное/Шейдеры. Основное.md",
     "vertex-array-objects.png",
     "yaw_camera_angle.svg",
     "%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2024-01-12_13-59-07.png",
