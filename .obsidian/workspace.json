@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "d61f5523dd4e3d04",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdd4486b3fe0e0fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9acf4e23b8c4c3a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c82e5081a9bf60b",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f8d87ce752bd18c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f5aa7631429950f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4d3c169cf52bcf53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc5ac82a8d009069",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 467.5
+  },
+  "right": {
+    "id": "ff4cb059491e9634",
+    "type": "split",
+    "children": [
+      {
+        "id": "06300a1a883d2a02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74bd8fdff27cb9ca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e0641a22e0cfb12e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d487c9f4116d011b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f2914c05412b64cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "e0641a22e0cfb12e",
+  "lastOpenFiles": [
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Математическа стоящая за Ортографической и Перспективной Проекцией/Математическа стоящая за Ортографической и Перспективной Проекцией.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Координатные Системы.md",
+    "Математическа.md",
+    "линейноек.md",
+    "mapping_yp_yn 1.svg",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Трансформации.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Гомогенные Координаты/Гомогенные Координаты.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Заметки по тригонометрии/Заметки по тригонометрии.md",
+    "dfa-minimization-example-6-1.svg",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Текстуры/Текстуры.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Шейдеры. Основное/Шейдеры. Основное.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Дополняем первый треугольник до квадрата/Дополняем первый треугольник до квадрата.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Первый треугольник с OpenGl/Первый треугольник с OpenGl.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Продвинутое изучение OpenGl/Продвинутое изучение OpenGl.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Продвинутое изучение OpenGl/Инстанцирование.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Обзор пайплайна OpenGL/Обзор пайплайна OpenGL.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Qt. OpenGL-Qt.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси/Вращение вокруг произвольной Оси.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения/Из Кватернионов к Матрице Вращения.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вектор $lookAt$ относительно оси/Вектор $lookAt$ относительно оси.md",
+    "vertex-array-objects.png",
+    "yaw_camera_angle.svg",
+    "%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2024-01-12_13-59-07.png",
+    "%D0%9A%D0%B0%D0%BA_%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Освещение. Обзорная информация/Освещение. Обзорная информация.md",
+    "Welcome.md",
+    "lookat_vector.svg",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей/Поворот на угол относительно осей.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра/Трансформация Окна Просмотра.md",
+    "surface_normal_vector.svg",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации Векторов Нормали/Трансформации Векторов Нормали.md",
+    "gl_camera09.jpg",
+    "basic_quaternion.svg",
+    "gl_camera04.gif",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
+    "dadaca219d0e8bba.pdf",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вектор $lookAt$ относительно оси",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации Векторов Нормали",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление",
+    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости"
+  ]
+}
