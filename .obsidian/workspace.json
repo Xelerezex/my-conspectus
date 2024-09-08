@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6c749abf129a1e94",
+        "id": "d5a78cd0d0f9409f",
         "type": "tabs",
         "children": [
           {
-            "id": "63982a5278006992",
+            "id": "eb05b803fc58b254",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1419fc82b4abc24e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6819030080af9102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "452248bce75af5f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
+                "file": "Notion/Алгоритмы/Алгоритмы.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md"
+                "file": "Notion/Алгоритмы/Алгоритмы.md"
               }
             }
           }
@@ -156,11 +119,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "452248bce75af5f7",
+  "active": "eb05b803fc58b254",
   "lastOpenFiles": [
+    "Notion/Конспекты-/Конспекты.md",
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Конспект курса Теория Вычислений (Theory of Computation).md",
     "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть X. Автомат Мили и Мура/Часть X. Автомат Мили и Мура.md",
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть VI. Минимизация DFA/Часть VI. Минимизация DFA.md",
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md",
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть II. Знакомство с DFA, и с NFA/Часть II. Знакомство с DFA, и с NFA.md",
+    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
-    "Notion/Алгоритмы-/Shunting yard algorithm-/Shunting yard algorithm-.md",
+    "Notion/Алгоритмы/Shunting yard algorithm/Shunting yard algorithm-.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
@@ -178,12 +147,6 @@
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Координатные Системы.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации в OpenGL.md",
     "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси/Вращение вокруг произвольной Оси.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения/Из Кватернионов к Матрице Вращения.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей/Поворот на угол относительно осей.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра/Трансформация Окна Просмотра.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации Векторов Нормали/Трансформации Векторов Нормали.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Обзор пайплайна OpenGL/Обзор пайплайна OpenGL.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Основные темы.md",
     "mapping_yp_yn 1.svg",
     "dfa-minimization-example-6-1.svg",
     "vertex-array-objects.png",
