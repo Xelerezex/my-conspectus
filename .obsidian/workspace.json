@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "536e8745ff9daf07",
+        "id": "3548ed5e2bb08c5a",
         "type": "tabs",
         "children": [
           {
-            "id": "71667b0588bcdfcd",
+            "id": "b6fb7376cc898463",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/Qt. Заметки/QML.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -91,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/Qt. Заметки/QML.md"
+              }
             }
           },
           {
@@ -100,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/Qt. Заметки/QML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/Qt. Заметки/QML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,8 +148,10 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "71667b0588bcdfcd",
+  "active": "b6fb7376cc898463",
   "lastOpenFiles": [
+    "notes/Qt. Заметки/Работа с Qt на базе паттерна Модель-Представление/Работа с Qt на базе паттерна Модель-Представление.md",
+    "notes/Qt. Заметки/Работа с Qt на базе паттерна Модель-Представление/QAbstractItemModel/QAbstractItemModel.md",
     "notes/Ideas-/Ideas-.md",
     "notes/Ideas-/AMS.md",
     "images/vao_with_ebo.png",
@@ -180,8 +190,6 @@
     "Вектор.md",
     "[[Вектор.md",
     "вектор.md",
-    "статьях.md",
-    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Трансформации.md",
     "images/dadaca219d0e8bba.pdf",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси",

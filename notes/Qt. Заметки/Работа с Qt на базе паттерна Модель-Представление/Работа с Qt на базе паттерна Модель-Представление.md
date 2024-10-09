@@ -1,17 +1,10 @@
----
 
+---
 ### Ресурсы:
 
 1. [Qt Documentation. Model View Programming](https://doc.qt.io/qt-6/model-view-programming.html#models).
-
 ---
-
-  
-
 [[QAbstractItemModel]]
-
-  
-
 !!!INSERT OTHER TEXT HERE!!!
 
 ---
