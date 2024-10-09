@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d5a78cd0d0f9409f",
+        "id": "536e8745ff9daf07",
         "type": "tabs",
         "children": [
           {
-            "id": "eb05b803fc58b254",
+            "id": "71667b0588bcdfcd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion/Алгоритмы/Алгоритмы.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -95,8 +91,33 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "636b38aa8f739e92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
               "state": {
-                "file": "Notion/Алгоритмы/Алгоритмы.md"
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9c9335c90ae166e8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -119,53 +140,53 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "eb05b803fc58b254",
+  "active": "71667b0588bcdfcd",
   "lastOpenFiles": [
-    "Notion/Конспекты-/Конспекты.md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Конспект курса Теория Вычислений (Theory of Computation).md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть X. Автомат Мили и Мура/Часть X. Автомат Мили и Мура.md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть VI. Минимизация DFA/Часть VI. Минимизация DFA.md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть II. Знакомство с DFA, и с NFA/Часть II. Знакомство с DFA, и с NFA.md",
-    "Notion/Конспекты-/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
-    "Notion/Алгоритмы/Shunting yard algorithm/Shunting yard algorithm-.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Освещение. Обзорная информация/Освещение. Обзорная информация.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Гомогенные Координаты/Гомогенные Координаты.md",
+    "notes/Ideas-/Ideas-.md",
+    "notes/Ideas-/AMS.md",
+    "images/vao_with_ebo.png",
+    "images/Untitled 2 2.png",
+    "images/Untitled 2.png",
+    "images/Untitled.png",
+    "images/Untitled.svg",
+    "notes/TODO.md",
+    "images/nfa-example-3-5.svg",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление/OpenGL Камера. Математическое Представление.md",
+    "images/basic_lighting_specular_theory.png",
+    "resources",
+    "images/basic_lighting_specular_shininess.png",
+    "basic_lighting_specular_theory 1.png",
+    "resources/%D0%9A%D0%B0%D0%BA_%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+    "images/1-thread-n-process.png",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости/Уравнение Плоскости.md",
+    "images",
+    "New folder",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть II. Знакомство с DFA, и с NFA/Часть II. Знакомство с DFA, и с NFA.md",
+    "notes/Qt. Заметки/QML.md",
+    "notes/Qt. Заметки/Qt. Заметки.md",
+    "notes/Алгоритмы/Алгоритмы.md",
+    "notes/Конспекты/Конспекты.md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Конспект курса Теория Вычислений (Theory of Computation).md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть X. Автомат Мили и Мура/Часть X. Автомат Мили и Мура.md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть VI. Минимизация DFA/Часть VI. Минимизация DFA.md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md",
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md",
+    "notes/Алгоритмы/Shunting yard algorithm/Shunting yard algorithm-.md",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Освещение. Обзорная информация/Освещение. Обзорная информация.md",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Гомогенные Координаты/Гомогенные Координаты.md",
     "Вектор.md",
     "[[Вектор.md",
     "вектор.md",
     "статьях.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Трансформации.md",
-    "Математическа.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вектор $lookAt$ относительно оси/Вектор $lookAt$ относительно оси.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Материалы/Материалы.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Координатные Системы.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации в OpenGL.md",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси/Вращение вокруг произвольной Оси.md",
-    "mapping_yp_yn 1.svg",
-    "dfa-minimization-example-6-1.svg",
-    "vertex-array-objects.png",
-    "yaw_camera_angle.svg",
-    "%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2024-01-12_13-59-07.png",
-    "%D0%9A%D0%B0%D0%BA_%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8_%D0%B4%D0%BB%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
-    "lookat_vector.svg",
-    "surface_normal_vector.svg",
-    "gl_camera09.jpg",
-    "basic_quaternion.svg",
-    "gl_camera04.gif",
-    "dadaca219d0e8bba.pdf",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вектор $lookAt$ относительно оси",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформации Векторов Нормали",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/OpenGL Камера. Математическое Представление",
-    "Notion/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Плоскости"
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Трансформации/Трансформации.md",
+    "images/dadaca219d0e8bba.pdf",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вектор $lookAt$ относительно оси",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Поворот на угол относительно осей",
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Трансформация Окна Просмотра"
   ]
 }
