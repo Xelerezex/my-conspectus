@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Qt. Заметки/QML.md",
+                "file": "notes/Паттерны проектирования/Паттерны проектирования.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 398.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Qt. Заметки/QML.md"
+                "file": "notes/Паттерны проектирования/Паттерны проектирования.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Qt. Заметки/QML.md",
+                "file": "notes/Паттерны проектирования/Паттерны проектирования.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Qt. Заметки/QML.md",
+                "file": "notes/Паттерны проектирования/Паттерны проектирования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +148,11 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "b6fb7376cc898463",
+  "active": "2f5aa7631429950f",
   "lastOpenFiles": [
+    "notes/strong-ideas",
+    "notes/Qt. Заметки/QML.md",
+    "notes/Qt. Заметки/Qt. Заметки.md",
     "notes/Qt. Заметки/Работа с Qt на базе паттерна Модель-Представление/Работа с Qt на базе паттерна Модель-Представление.md",
     "notes/Qt. Заметки/Работа с Qt на базе паттерна Модель-Представление/QAbstractItemModel/QAbstractItemModel.md",
     "notes/Ideas-/Ideas-.md",
@@ -173,8 +176,6 @@
     "New folder",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Уравнение Линии в 3-м измерении/Уравнение Линии в 3-м измерении.md",
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть II. Знакомство с DFA, и с NFA/Часть II. Знакомство с DFA, и с NFA.md",
-    "notes/Qt. Заметки/QML.md",
-    "notes/Qt. Заметки/Qt. Заметки.md",
     "notes/Алгоритмы/Алгоритмы.md",
     "notes/Конспекты/Конспекты.md",
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Конспект курса Теория Вычислений (Theory of Computation).md",
@@ -189,7 +190,6 @@
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Гомогенные Координаты/Гомогенные Координаты.md",
     "Вектор.md",
     "[[Вектор.md",
-    "вектор.md",
     "images/dadaca219d0e8bba.pdf",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Из Кватернионов к Матрице Вращения",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Координатные Системы/Трансформации в OpenGL/Вращение вокруг произвольной Оси",
