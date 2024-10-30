@@ -102,7 +102,7 @@ Build time qt docs:
     Added  
     `\#include <limits>`
     
-    ![[%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_%D0%BE%D1%82_2024-01-12_13-59-07.png]]
+    ![[qt-5-linux-build-fix-error.png]]
     
 4. Errors in qtwebengine while build 5.15.2 with GCC  
     SOLUTION:  
