@@ -41,16 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/strong-ideas/Три уровня рассуждений о программной системе - 3.md",
+                "file": "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Три уровня рассуждений о программной системе - 3"
+              "title": "3. Три уровня рассуждений о программной системе - 3"
+            }
+          },
+          {
+            "id": "59b7786da05b869b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Снижение цикломатической сложности как метод проектирования"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 200
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -193,11 +207,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "2e57cbe0a59063b6",
+  "active": "59b7786da05b869b",
   "lastOpenFiles": [
-    "notes/strong-ideas/Три уровня рассуждений о программной системе - 2.md",
-    "notes/strong-ideas/Три уровня рассуждений о программной системе.md",
-    "notes/strong-ideas/Три уровня рассуждений о программной системе - 3.md",
+    "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
+    "notes/strong-ideas/2. Три уровня рассуждений о программной системе - 2.md",
+    "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
+    "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
+    "resources/lambda-not-null/lambda-not-null-4-reducing-cyclomatic.zip",
+    "resources/lambda-not-null/lambda-not-null-4-3-levels-4.zip",
+    "resources/lambda-not-null/4.zip",
     "resources/materials/how-to-read-books-for-self-education.pdf",
     "resources/materials",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
@@ -206,9 +224,6 @@
     "resources/lambda-not-null/lambda-not-null-2-3-levels-2.zip",
     "resources/lambda-not-null/lambda-not-null-1-3-levels-1.zip",
     "resources/lambda-not-null",
-    "resources/New folder",
-    "resources/lambda-not-null-3-3-levels-3.zip",
-    "resources/lambda-not-null-2-3-levels-2.zip",
     "notes/Паттерны проектирования/Паттерны проектирования.md",
     "notes/Qt. Заметки/QML.md",
     "notes/Qt. Заметки/Qt. Заметки.md",
@@ -239,7 +254,6 @@
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md",
     "notes/Алгоритмы/Shunting yard algorithm/Shunting yard algorithm-.md",
     "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
-    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md",
-    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Освещение. Обзорная информация/Освещение. Обзорная информация.md"
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md"
   ]
 }
