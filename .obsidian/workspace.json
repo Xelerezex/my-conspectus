@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "4. Снижение цикломатической сложности как метод проектирования"
             }
+          },
+          {
+            "id": "f83762ae74e2920f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/strong-ideas/5. Как и зачем избавляться от условного оператора.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Как и зачем избавляться от условного оператора"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,12 +221,15 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "59b7786da05b869b",
+  "active": "f83762ae74e2920f",
   "lastOpenFiles": [
+    "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
+    "notes/strong-ideas/5. Как и зачем избавляться от условного оператора.md",
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
+    "resources/lambda-not-null/lambda-not-null-5-antiIf.zip",
+    "resources/lambda-not-null/lambda-not-null-5.zip",
     "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
     "notes/strong-ideas/2. Три уровня рассуждений о программной системе - 2.md",
-    "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
     "resources/lambda-not-null/lambda-not-null-4-reducing-cyclomatic.zip",
     "resources/lambda-not-null/lambda-not-null-4-3-levels-4.zip",
     "resources/lambda-not-null/4.zip",
@@ -222,8 +239,6 @@
     "resources/unsorted",
     "resources/lambda-not-null/lambda-not-null-3-3-levels-3.zip",
     "resources/lambda-not-null/lambda-not-null-2-3-levels-2.zip",
-    "resources/lambda-not-null/lambda-not-null-1-3-levels-1.zip",
-    "resources/lambda-not-null",
     "notes/Паттерны проектирования/Паттерны проектирования.md",
     "notes/Qt. Заметки/QML.md",
     "notes/Qt. Заметки/Qt. Заметки.md",
@@ -253,7 +268,6 @@
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md",
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md",
     "notes/Алгоритмы/Shunting yard algorithm/Shunting yard algorithm-.md",
-    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md",
-    "notes/Qt. Заметки/Qt. OpenGL-Qt/Освещение/Цвета/Цвета.md"
+    "notes/Qt. Заметки/Qt. OpenGL-Qt/Основные темы/Камера/Камера.md"
   ]
 }
