@@ -51,4 +51,4 @@ MVC (Model-View-Controller) - программный, фундаментальн
 
   
 
-[[notes/Вопросы задаваемые на собеседованиях_external/Patterns. Что такое MVC/Сравнение MVC & MVVM & MVP-|Сравнение MVC & MVVM & MVP-]]
+[[notes/interview-questions-shared/questions/Patterns. Что такое MVC/Сравнение MVC & MVVM & MVP-|Сравнение MVC & MVVM & MVP-]]

@@ -49,7 +49,7 @@ namespace std
 
 И хороший вариант так или иначе, нашелся!
 
-Мы можем использовать $friend$﻿-функцию, и поиск через [[notes/Вопросы задаваемые на собеседованиях_external/C++. Что такое Name Lookup/C++. Что такое ADL|C++. Что такое ADL]].
+Мы можем использовать $friend$﻿-функцию, и поиск через [[notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL|C++. Что такое ADL]].
 
 ```C++
 namespace smth
@@ -61,7 +61,7 @@ namespace smth
 }
 ```
 
-Когда мы хотим поменять что-то местами, мы ассоциируем $std::swap$﻿ в нужном пространстве имен, и потом производим [[notes/Вопросы задаваемые на собеседованиях_external/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup|С++. Что такое Unqualified name lookup]] с ADL.
+Когда мы хотим поменять что-то местами, мы ассоциируем $std::swap$﻿ в нужном пространстве имен, и потом производим [[notes/interview-questions-shared/questions/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup|С++. Что такое Unqualified name lookup]] с ADL.
 
 ```C++
 friend void swap(myclass&, myclass&)

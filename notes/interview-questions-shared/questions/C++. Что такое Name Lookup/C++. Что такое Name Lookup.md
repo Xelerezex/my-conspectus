@@ -21,12 +21,12 @@ std::cout << std::endl;
 
 1. Поиск полного имени
     
-    [[notes/Вопросы задаваемые на собеседованиях_external/C++. Что такое Name Lookup/C++. Что такое Qualified name lookup|C++. Что такое Qualified name lookup]]
+    [[notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Qualified name lookup|C++. Что такое Qualified name lookup]]
     
 2. Поиск неполного имени
     
-    [[notes/Вопросы задаваемые на собеседованиях_external/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup|С++. Что такое Unqualified name lookup]]
+    [[notes/interview-questions-shared/questions/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup|С++. Что такое Unqualified name lookup]]
     
 3. Поиск неполного имени, но для функций добавляется “поиск зависящий от аргументов”.
     
-    [[notes/Вопросы задаваемые на собеседованиях_external/C++. Что такое Name Lookup/C++. Что такое ADL|C++. Что такое ADL]]
+    [[notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL|C++. Что такое ADL]]
