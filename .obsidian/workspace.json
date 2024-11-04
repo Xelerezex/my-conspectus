@@ -104,9 +104,23 @@
               "icon": "lucide-file",
               "title": "7. Правильное проектирование на микро-уровне"
             }
+          },
+          {
+            "id": "555ac2a705fc042b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/strong-ideas/8. Три важных принципа programming in small.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. Три важных принципа programming in small"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -249,18 +263,20 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "13395cac60d8641b",
+  "active": "555ac2a705fc042b",
   "lastOpenFiles": [
-    "notes/strong-ideas/6. О циклах по умному.md",
+    "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
+    "notes/strong-ideas/8. Три важных принципа programming in small.md",
     "notes/strong-ideas/7. Правильное проектирование на микро-уровне.md",
+    "resources/lambda-not-null/lambda-not-null-8-3-important.zip",
     "resources/lambda-not-null/lambda-not-null-7-design-micro.zip",
+    "notes/strong-ideas/6. О циклах по умному.md",
     "notes/strong-ideas/5. Как и зачем избавляться от условного оператора.md",
     "resources/lambda-not-null/lambda-not-null-6-loops.zip",
     "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
     "resources/lambda-not-null/lambda-not-null-5-antiIf.zip",
     "resources/lambda-not-null/lambda-not-null-5.zip",
-    "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
     "notes/strong-ideas/2. Три уровня рассуждений о программной системе - 2.md",
     "resources/lambda-not-null/lambda-not-null-4-reducing-cyclomatic.zip",
     "resources/lambda-not-null/lambda-not-null-4-3-levels-4.zip",
@@ -268,7 +284,6 @@
     "resources/materials/how-to-read-books-for-self-education.pdf",
     "resources/materials",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
-    "resources/unsorted",
     "notes/Паттерны проектирования/Паттерны проектирования.md",
     "notes/Qt. Заметки/QML.md",
     "notes/Qt. Заметки/Qt. Заметки.md",
@@ -295,7 +310,6 @@
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Конспект курса Теория Вычислений (Theory of Computation).md",
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть X. Автомат Мили и Мура/Часть X. Автомат Мили и Мура.md",
     "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть VI. Минимизация DFA/Часть VI. Минимизация DFA.md",
-    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md",
-    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть I. Введение/Часть I. Введение.md"
+    "notes/Конспекты/Конспект курса Теория Вычислений (Theory of Computation)/Часть III. Конвертация NFA в DFA/Часть III. Конвертация NFA в DFA.md"
   ]
 }
