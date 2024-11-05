@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90ffdca48bef124a",
+            "id": "38a553de38735a33",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,20 +22,35 @@
             }
           },
           {
-            "id": "c880f3f7fca4ed27",
+            "id": "88275f64f848578e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/📋TODO.md",
+                "file": "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📋TODO"
+              "title": "2GIS. Секция плюсов (вопросы + карточки подготовки)."
+            }
+          },
+          {
+            "id": "6924094de7ce98ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2GIS. Секция Qt-QML."
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,46 +193,47 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "90ffdca48bef124a",
+  "active": "6924094de7ce98ac",
   "lastOpenFiles": [
-    "notes/interview-questions-shared/questions/VK Поиск.md",
     "notes/interview-questions-shared/Overview information.md",
-    "notes/interview-questions-shared/questions/С++. Шуточный пример написания шаблонов на макросах.md",
-    "notes/interview-questions-shared/questions/C++. Разбираемся с прямым и обратным порядком байтов.md",
-    "notes/interview-questions-shared/questions/C++. Аллокация памяти. Основная информация.md",
-    "notes/interview-questions-shared/questions/C++. ООП.md",
-    "notes/interview-questions-shared/questions/C++. Макросы.md",
-    "notes/interview-questions-shared/questions/C++. Основы.md",
-    "notes/interview-questions-shared/questions/C++. Задачи по динамической памяти.md",
-    "notes/interview-questions-shared/questions/С++. Как выглядит память внутри объектов, при разных сценариях.md",
-    "notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация.md",
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
     "notes/📋TODO.md",
-    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Name Lookup.md",
-    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL.md",
-    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup.md",
-    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Qualified name lookup.md",
-    "notes/interview-questions-shared/questions/C++. Почему в copy-and-swap идиоме, swap - это friend функция.md",
-    "notes/interview-questions-shared/questions/C++. Что такое copy-and-swap идиома.md",
-    "notes/interview-questions-shared/questions/С++. Что такое The Rule of Three.md",
-    "notes/interview-questions-shared/questions/СберДевайсы. Вопросы техскрининга.md",
-    "notes/interview-questions-shared/questions/C++. Сколько будут весить различные классы в С++.md",
-    "notes/interview-questions-shared/questions/Понятие Владения.md",
-    "notes/interview-questions-shared/questions/std-arrayT,N.md",
-    "notes/interview-questions-shared/questions/C++. Что такое perfect forwarding.md",
-    "notes/interview-questions-shared/questions/С++. Что такое виртуальная таблица методов.md",
-    "notes/Рецепты/Супы.md",
+    "notes/interview-questions-shared/questions/cpp/containers/C++. Containers. Overview..md",
+    "notes/interview-questions-shared/questions/companies/Strata Solutions. Основная часть..md",
+    "notes/interview-questions-shared/questions/companies/Топ Системы. Основная часть.md",
+    "notes/interview-questions-shared/questions/cpp/containers",
+    "notes/interview-questions-shared/questions/companies/❓Unknown❓. Ебнутые ребята с указателями и памятью..md",
+    "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
+    "notes/interview-questions-shared/questions/companies/VK Поиск. Секция устных вопросов..md",
+    "notes/interview-questions-shared/questions/companies/VK Поиск. Алгоритмическая секция..md",
+    "notes/interview-questions-shared/questions/general/Вопросы про C++, встречающиеся на собеседованиях.md",
+    "notes/interview-questions-shared/questions/cpp/C++. ООП.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Разбираемся с прямым и обратным порядком байтов.md",
+    "notes/interview-questions-shared/questions/companies/VK Поиск. Тестовое задание перед собеседованиями.md",
+    "notes/interview-questions-shared/questions/companies/ГридПоинтс. Задачи с собеседования.md",
+    "notes/interview-questions-shared/questions/general",
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+    "notes/interview-questions-shared/questions/companies/СберДевайсы. Вопросы техскрининга.md",
+    "images/2gis-move-question.png",
+    "notes/interview-questions-shared/questions/qt/Qt. Как модель-Представление выглядит в Qt.md",
+    "notes/interview-questions-shared/questions/cpp/С++. Шуточный пример написания шаблонов на макросах.md",
+    "notes/interview-questions-shared/questions/cpp/С++. Что такое The Rule of Three.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Контайнеры. std array.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Понятие Владения.md",
+    "notes/interview-questions-shared/questions/companies",
+    "notes/interview-questions-shared/questions/other",
+    "notes/interview-questions-shared/questions/qt",
+    "notes/interview-questions-shared/questions/cpp",
+    "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Макросы.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Основы.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Задачи по динамической памяти.md",
     "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
     "images/coordinate_systems.png",
     "resources/interview-questions",
     "resources/lambda-brain-not-null/lambda-brain-not-null-9-3-propers.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-8-3-important.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-7-design-micro.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-6-loops.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-5-antiIf.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-4-reducing-cyclomatic.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-3-3-levels-3.zip",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
     "images/vao_with_ebo.png",
     "images/Untitled 2 2.png",
@@ -225,7 +241,6 @@
     "images/Untitled.png",
     "images/Untitled.svg",
     "images/nfa-example-3-5.svg",
-    "images/basic_lighting_specular_theory.png",
-    "images/basic_lighting_specular_shininess.png"
+    "images/basic_lighting_specular_theory.png"
   ]
 }
