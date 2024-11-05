@@ -2,11 +2,11 @@
 
 ```C++
 QObject::connect(
-        const QObject*     sender,
-			  const char*        signal,
-        const QObject*     receiver,
-        const char*        slot,
-        Qt::ConnectionType type = Qt::AutoConnection 
+	const QObject*     sender,
+	const char*        signal,
+	const QObject*     receiver,
+	const char*        slot,
+	Qt::ConnectionType type = Qt::AutoConnection 
 );
 ```
 
@@ -27,11 +27,11 @@ QObject::connect(
 
 ```C++
 QObject::connect(
-        const QObject*     sender,
-			  const QMetaMethod& signal,
-        const QObject*     receiver,
-        const QMetaMethod& slot,
-        Qt::ConnectionType type = Qt::AutoConnection 
+	const QObject*     sender,
+	const QMetaMethod& signal,
+	const QObject*     receiver,
+	const QMetaMethod& slot,
+	Qt::ConnectionType type = Qt::AutoConnection 
 );
 ```
 
@@ -44,7 +44,7 @@ QObject::connect(
 ```C++
 MyClass::MyClass() : QObject()
 {
-		connect(pSender, SIGNAL(signalMethod()), SLOT(slot()));
+	connect(pSender, SIGNAL(signalMethod()), SLOT(slot()));
 }
 
 void MyClass::slot();

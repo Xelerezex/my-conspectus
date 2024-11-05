@@ -4,15 +4,16 @@ virtual память системные программирование уст�
 
 ### Техника рефаторинга
 
-\#ifndef LIBUTIL_LRU_CACHE_HPP__  
-\#define LIBUTIL_LRU_CACHE_HPP__  
 
-\#include <unordered_map>
+```cpp
+#ifndef LIBUTIL_LRU_CACHE_HPP__  
+#define LIBUTIL_LRU_CACHE_HPP__  
+
+#include <unordered_map>
 
 namespace libutil  
 {  
 
-```Plain
 template< class Tkey, class TItem >
 class LastUsedCache
 {
@@ -101,10 +102,12 @@ public:
         cache_.clear();
     }
 };
-```
 
 } // namespace libutil
 
-\#endif // LIBUTIL_LRU_CACHE_HPP__
+#endif // LIBUTIL_LRU_CACHE_HPP__
 
-\#leetcode 132
+```
+
+Аналогичная задача
+#leetcode 132

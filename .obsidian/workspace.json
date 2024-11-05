@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Overview information"
             }
+          },
+          {
+            "id": "6a4ce614f9abd047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Name Lookup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C++. Что такое Name Lookup"
+            }
+          },
+          {
+            "id": "c880f3f7fca4ed27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/📋TODO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📋TODO"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 549.5
+    "width": 326.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -164,36 +193,40 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "90ffdca48bef124a",
+  "active": "6a4ce614f9abd047",
   "lastOpenFiles": [
-    "notes/interview-questions-shared/questions/Заметки Артема Гудзенко.md",
     "notes/interview-questions-shared/Overview information.md",
-    "notes/interview-questions-shared/questions/СберДевайсы. Вопросы техскрининга.md",
-    "notes/interview-questions-shared/questions/C++. Аллокация памяти. Основная информация.md",
-    "Untitled.canvas",
+    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Name Lookup.md",
+    "notes/interview-questions-shared/questions/C++. Почему в copy-and-swap идиоме, swap - это friend функция.md",
+    "notes/interview-questions-shared/questions/C++. Что такое copy-and-swap идиома.md",
     "notes/interview-questions-shared/questions/С++. Что такое The Rule of Three.md",
-    "notes/Вопросы задаваемые на собеседованиях/С++. Что такое The Rule of Three.md",
+    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL.md",
+    "notes/interview-questions-shared/questions/СберДевайсы. Вопросы техскрининга.md",
+    "notes/📋TODO.md",
+    "notes/interview-questions-shared/questions/C++. Сколько будут весить различные классы в С++.md",
+    "notes/interview-questions-shared/questions/Понятие Владения.md",
     "notes/interview-questions-shared/questions/std-arrayT,N.md",
+    "notes/interview-questions-shared/questions/C++. Что такое perfect forwarding.md",
+    "notes/interview-questions-shared/questions/С++. Что такое виртуальная таблица методов.md",
+    "notes/Рецепты/Супы.md",
+    "notes/Рецепты/Салаты.md",
+    "notes/Рецепты/Рецепты.md",
+    "notes/Вопросы задаваемые на собеседованиях/C++. Сколько будут весить различные классы в С++.md",
+    "notes/Заметки по книгам/Заметки по книге- Энтони Уильямса. Параллельное программирование на С++/Глава 3-/Глава 3.md",
+    "notes/interview-questions-shared/questions/Patterns. Что такое MVC/Patterns. Что такое MVC.md",
+    "notes/interview-questions-shared/questions/Patterns. Что такое MVC/Сравнение MVC & MVVM & MVP.md",
+    "notes/interview-questions-shared/questions/Qt. Как модель-Представление выглядит в Qt.md",
+    "notes/interview-questions-shared/questions/Qt. Сколько параметров в QObject--connect().md",
+    "notes/interview-questions-shared/questions/Qt. Что представляют из себя События в Qt.md",
+    "notes/interview-questions-shared/questions/Qt. Обзорная информация.md",
+    "notes/interview-questions-shared/questions/Собеседование с VK.md",
+    "notes/interview-questions-shared/questions/Заметки Артема Гудзенко.md",
+    "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
     "images/coordinate_systems.png",
     "resources/interview-questions",
-    "notes/interview-questions-shared/questions/C++. Основы.md",
-    "notes/interview-questions-shared/questions/C++. Почему в copy-and-swap идиоме, swap - это friend функция.md",
-    "notes/Вопросы задаваемые на собеседованиях_external/Вопросы из файла.md",
-    "notes/interview-questions-shared/questions/С++. Шуточный пример написания шаблонов на макросах.md",
-    "notes/Заметки по книгам/Заметки по книге- Энтони Уильямса. Параллельное программирование на С++/Глава 3-/Глава 3-.md",
-    "notes/interview-questions-shared/questions/Понятие Владения.md",
-    "notes/strong-ideas/8. Три важных принципа programming in small.md",
-    "notes/strong-ideas/2. Три уровня рассуждений о программной системе - 2.md",
-    "notes/strong-ideas/9. Три свойства качественного кода.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-9-3-propers.zip",
-    "notes/strong-ideas/7. Правильное проектирование на микро-уровне.md",
-    "notes/strong-ideas/6. О циклах по умному.md",
-    "notes/strong-ideas/5. Как и зачем избавляться от условного оператора.md",
-    "notes/strong-ideas/4. Снижение цикломатической сложности как метод проектирования.md",
-    "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
-    "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-8-3-important.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-7-design-micro.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-6-loops.zip",
@@ -201,10 +234,6 @@
     "resources/lambda-brain-not-null/lambda-brain-not-null-4-reducing-cyclomatic.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-3-3-levels-3.zip",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
-    "notes/Паттерны проектирования/Паттерны проектирования.md",
-    "notes/Qt. Заметки/QML.md",
-    "notes/Qt. Заметки/Qt. Заметки.md",
-    "notes/Qt. Заметки/Работа с Qt на базе паттерна Модель-Представление/Работа с Qt на базе паттерна Модель-Представление.md",
     "images/vao_with_ebo.png",
     "images/Untitled 2 2.png",
     "images/Untitled 2.png",
