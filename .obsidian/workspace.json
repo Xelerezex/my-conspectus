@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "6a4ce614f9abd047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Name Lookup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C++. Что такое Name Lookup"
-            }
-          },
-          {
             "id": "c880f3f7fca4ed27",
             "type": "leaf",
             "state": {
@@ -49,8 +35,7 @@
               "title": "📋TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,34 +178,34 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6a4ce614f9abd047",
+  "active": "90ffdca48bef124a",
   "lastOpenFiles": [
+    "notes/interview-questions-shared/questions/VK Поиск.md",
     "notes/interview-questions-shared/Overview information.md",
+    "notes/interview-questions-shared/questions/С++. Шуточный пример написания шаблонов на макросах.md",
+    "notes/interview-questions-shared/questions/C++. Разбираемся с прямым и обратным порядком байтов.md",
+    "notes/interview-questions-shared/questions/C++. Аллокация памяти. Основная информация.md",
+    "notes/interview-questions-shared/questions/C++. ООП.md",
+    "notes/interview-questions-shared/questions/C++. Макросы.md",
+    "notes/interview-questions-shared/questions/C++. Основы.md",
+    "notes/interview-questions-shared/questions/C++. Задачи по динамической памяти.md",
+    "notes/interview-questions-shared/questions/С++. Как выглядит память внутри объектов, при разных сценариях.md",
+    "notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация.md",
+    "notes/📋TODO.md",
     "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Name Lookup.md",
+    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL.md",
+    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/С++. Что такое Unqualified name lookup.md",
+    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое Qualified name lookup.md",
     "notes/interview-questions-shared/questions/C++. Почему в copy-and-swap идиоме, swap - это friend функция.md",
     "notes/interview-questions-shared/questions/C++. Что такое copy-and-swap идиома.md",
     "notes/interview-questions-shared/questions/С++. Что такое The Rule of Three.md",
-    "notes/interview-questions-shared/questions/C++. Что такое Name Lookup/C++. Что такое ADL.md",
     "notes/interview-questions-shared/questions/СберДевайсы. Вопросы техскрининга.md",
-    "notes/📋TODO.md",
     "notes/interview-questions-shared/questions/C++. Сколько будут весить различные классы в С++.md",
     "notes/interview-questions-shared/questions/Понятие Владения.md",
     "notes/interview-questions-shared/questions/std-arrayT,N.md",
     "notes/interview-questions-shared/questions/C++. Что такое perfect forwarding.md",
     "notes/interview-questions-shared/questions/С++. Что такое виртуальная таблица методов.md",
     "notes/Рецепты/Супы.md",
-    "notes/Рецепты/Салаты.md",
-    "notes/Рецепты/Рецепты.md",
-    "notes/Вопросы задаваемые на собеседованиях/C++. Сколько будут весить различные классы в С++.md",
-    "notes/Заметки по книгам/Заметки по книге- Энтони Уильямса. Параллельное программирование на С++/Глава 3-/Глава 3.md",
-    "notes/interview-questions-shared/questions/Patterns. Что такое MVC/Patterns. Что такое MVC.md",
-    "notes/interview-questions-shared/questions/Patterns. Что такое MVC/Сравнение MVC & MVVM & MVP.md",
-    "notes/interview-questions-shared/questions/Qt. Как модель-Представление выглядит в Qt.md",
-    "notes/interview-questions-shared/questions/Qt. Сколько параметров в QObject--connect().md",
-    "notes/interview-questions-shared/questions/Qt. Что представляют из себя События в Qt.md",
-    "notes/interview-questions-shared/questions/Qt. Обзорная информация.md",
-    "notes/interview-questions-shared/questions/Собеседование с VK.md",
-    "notes/interview-questions-shared/questions/Заметки Артема Гудзенко.md",
     "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",

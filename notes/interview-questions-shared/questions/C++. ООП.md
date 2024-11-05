@@ -1,3 +1,4 @@
+
 ---
 
 ## Вопрос первый.
@@ -7,27 +8,29 @@ _Вопрос:_
 Что происходит в данном коде?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Int
 {
-		Int& operator ++ ()
-		{
-				++m_value;
-				return *this;
-		}
+	Int& operator ++ ()
+	{
+		++m_value;
+		return *this;
+	}
 
 private:
-		int m_value;
+	
+	int m_value;
+
 };
 
 int main(int argc, char** argv)
 {
-		Int int_variable;
-		++int_variable;
-		int_variable++;
-		++int_variable++;
-		return EXIT_SUCCESS;
+	Int int_variable;
+	++int_variable;
+	int_variable++;
+	++int_variable++;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -40,9 +43,9 @@ _Вопрос:_
 ```C++
 Int& operator ++ (int)
 {
-			Int temp(*this); // Происходит копирование элемента
-			++m_value;
-			return temp;
+	Int temp(*this); // Происходит копирование элемента
+	++m_value;
+	return temp;
 }
 ```
 
@@ -59,28 +62,30 @@ _Вопрос:_
 Что в данном коде может пойти не так?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 template<typename T>
 struct Data
 {
-		explicit Data(T* ptr)
-				: m_ptr{ptr} {}
+	explicit Data(T* ptr)
+		: m_ptr{ptr} {}
 
-		~Data()
-		{
-				delete m_ptr;
-		}
+	~Data()
+	{
+		delete m_ptr;
+	}
 
 private:
-		T* m_ptr;
+
+	T* m_ptr;
+
 };
 
 int main(int argc, char** argv)
 {
-		Data<int> data_1{new int{10}};
-		Data<int> data_2 = data_1;
-		return EXIT_SUCCESS;
+	Data<int> data_1{new int{10}};
+	Data<int> data_2 = data_1;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -95,7 +100,6 @@ _Вопрос:_
 Воспользоваться правилом [[notes/interview-questions-shared/questions/С++. Что такое The Rule of Three|С++. Что такое The Rule of Three]]. И это значит, что если определен деструктор, то надо определить и оператор копирования и оператор присваивания.
 
 ---
-
 ## Вопрос третий.
 
 _Вопрос:_
@@ -103,34 +107,35 @@ _Вопрос:_
 Что в данном коде может пойти не так?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Data
 {
-		explicit Data(T* ptr)
-				: m_size{size}, m_buffer{new int[m_size]} {}
+	explicit Data(T* ptr)
+		: m_size{size}, m_buffer{new int[m_size]} {}
 
-		~Data()
-		{
-				delete[] m_buffer;
-		}
+	~Data()
+	{
+		delete[] m_buffer;
+	}
 
 private:
-		int* m_buffer;
-		size_t m_size;
+
+	int* m_buffer;
+	size_t m_size;
+
 };
 
 int main(int argc, char** argv)
 {
-		Data data{10u};
-		return EXIT_SUCCESS;
+	Data data{10u};
+	return EXIT_SUCCESS;
 }
 ```
 
 В данном коде будет **UB**, потому что первым всегда будет инициализироваться переменная, которая объявлена раньше, то есть `m_buffer` . А так как она будет первая проинициализирована, то в `m_size` может находится любой мусор.
 
 ---
-
 ## Вопрос четвертый.
 
 _Вопрос:_
@@ -138,17 +143,17 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base {};
 struct Derived : Base {};
 
 int main(int argc, char** argv)
 {
-		std::cout << "sizeof Base:    " << sizeof(Base) << std::endl;
-		std::cout << "sizeof Derived: " << sizeof(Derived) << std::endl;
+	std::cout << "sizeof Base:    " << sizeof(Base) << std::endl;
+	std::cout << "sizeof Derived: " << sizeof(Derived) << std::endl;
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -162,7 +167,6 @@ sizeof Derived: 1
 Данная концепция называется _**EBO**_ (_Empty Base Optimization_) и она гласит, что пустой класс не может иметь нулевой размер. Должен быть минимальный размер в один байт, для того, что бы можно было обратиться к нему по указателю: `Base* b_ptr = &b;`
 
 ---
-
 ## Вопрос пятый.
 
 _Вопрос:_
@@ -170,52 +174,52 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
-		Base()
-		{
-				print();
-		}
+	Base()
+	{
+		print();
+	}
 
-		void print()
-		{
-				std::cout << "Base::print" << std::endl;
-		}
+	void print()
+	{
+		std::cout << "Base::print" << std::endl;
+	}
 
-		~Base()
-		{
-				print();
-		}
+	~Base()
+	{
+		print();
+	}
 		
 };
 
 struct Derived : Base
 {
-		Derived()
-		{
-				print();
-		}
+	Derived()
+	{
+		print();
+	}
 
-		virtual void print()
-		{
-				std::cout << "Derived::print" << std::endl;
-		}
+	virtual void print()
+	{
+		std::cout << "Derived::print" << std::endl;
+	}
 
-		~Derived()
-		{
-				print();
-		}
+	~Derived()
+	{
+		print();
+	}
 };
 
 int main(int argc, char** argv)
 {
-		Derived d;
-		Base& b = d;
-		b.print();
+	Derived d;
+	Base& b = d;
+	b.print();
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -236,52 +240,52 @@ _Вопрос:_
 А что будет, если вывести следующий код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
-		Base()
-		{
-				print();
-		}
+	Base()
+	{
+		print();
+	}
 
-		virtual void print()
-		{
-				std::cout << "Base::print" << std::endl;
-		}
+	virtual void print()
+	{
+		std::cout << "Base::print" << std::endl;
+	}
 
-		~Base()
-		{
-				print();
-		}
+	~Base()
+	{
+		print();
+	}
 		
 };
 
 struct Derived : Base
 {
-		Derived()
-		{
-				print();
-		}
+	Derived()
+	{
+		print();
+	}
 
-		virtual void print()
-		{
-				std::cout << "Derived::print" << std::endl;
-		}
+	virtual void print()
+	{
+		std::cout << "Derived::print" << std::endl;
+	}
 
-		~Derived()
-		{
-				print();
-		}
+	~Derived()
+	{
+		print();
+	}
 };
 
 int main(int argc, char** argv)
 {
-		Derived d;
-		Base& b = d;
-		b.print();
+	Derived d;
+	Base& b = d;
+	b.print();
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -308,52 +312,52 @@ _Вопрос:_
 А что будет, если вывести следующий код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
-		Base()
-		{
-				print();
-		}
+	Base()
+	{
+		print();
+	}
 
-		virtual void print()
-		{
-				std::cout << "Base::print" << std::endl;
-		}
+	virtual void print()
+	{
+		std::cout << "Base::print" << std::endl;
+	}
 
-		~Base()
-		{
-				print();
-		}
+	~Base()
+	{
+		print();
+	}
 		
 };
 
 struct Derived : Base
 {
-		Derived()
-		{
-				print();
-		}
+	Derived()
+	{
+		print();
+	}
 
-		virtual void print()
-		{
-				std::cout << "Derived::print" << std::endl;
-		}
+	virtual void print()
+	{
+		std::cout << "Derived::print" << std::endl;
+	}
 
-		~Derived()
-		{
-				print();
-		}
+	~Derived()
+	{
+		print();
+	}
 };
 
 int main(int argc, char** argv)
 {
-		Base& b = new Derived;
-		b->print();
-		delete b;	
+	Base& b = new Derived;
+	b->print();
+	delete b;	
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -379,30 +383,30 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
-		virtual void print(int value)
-		{
-				std::cout << "Base::print" << std::endl;
-		}
+	virtual void print(int value)
+	{
+		std::cout << "Base::print" << std::endl;
+	}
 };
 
 
 struct Derived : Base
 {
-		virtual void print(long value)
-		{
-				std::cout << "Derived::print" << std::endl;
-		}
+	virtual void print(long value)
+	{
+		std::cout << "Derived::print" << std::endl;
+	}
 };
 
 int main(int argc, char** argv)
 {
-		Base* b = new Derived;
-		b->print(100);
-		return EXIT_SUCCESS; 
+	Base* b = new Derived;
+	b->print(100);
+	return EXIT_SUCCESS; 
 }
 ```
 
@@ -423,7 +427,7 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
@@ -438,7 +442,9 @@ struct Base
     }
 
 private:
+
     virtual void print_impl() = 0;
+    
 };
 
 struct Derived : Base
@@ -483,7 +489,7 @@ _Вопрос:_
 Что происходит в данном коде?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct SuperBase
 {
@@ -534,31 +540,29 @@ int main (int argc, char** argv)
 
 1. Явно указать класс, через который пойдет доступ к переменной базового класса:
     
-    ```C++
-    derived.Base1::super_base_data = 100;
-    ```
+```C++
+derived.Base1::super_base_data = 100;
+```
     
 2. Определить класс `SuperBase` как виртуальное наследование.
     
-    ```C++
-    struct Base1 : virtual SuperBase
-    {
-        int base_1_data;
-    };
-    
-    struct Base2 : virtual SuperBase
-    {
-        int base_2_data;
-    };
-    ```
+```C++
+struct Base1 : virtual SuperBase
+{
+	int base_1_data;
+};
+
+struct Base2 : virtual SuperBase
+{
+	int base_2_data;
+};
+```
     
     Как же это будет работать под капотом?
     
     Очень просто в инстансе `Base1` и `Base2` создастся по указателю `vb_ptr`. И этот указатель будет указывать на инстенс базового класса `SuperBase`.
-    
 
 ---
-
 ## Вопрос девятый.
 
 _Вопрос:_
@@ -566,7 +570,7 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Base
 {
@@ -613,14 +617,13 @@ print: 100
 using Base::print;    
 void print(int value)
 {
-		std::cout << "print: " << value << std::endl;
+	std::cout << "print: " << value << std::endl;
 }
 ```
 
 И тогда код `derived.print(”100”);` отработает нормально.
 
 ---
-
 ## Вопрос десятый.
 
 _Вопрос:_
@@ -628,7 +631,7 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Data
 {
@@ -645,7 +648,9 @@ struct Data
     }
 
 private:
+
     int m_value = 100;
+    
 };
 
 void func(int value) {}
@@ -673,7 +678,6 @@ get_value_2
 Во втором случае вызывается `int get_value() const&&` потому что объект создается как _rvalue_. (У _rvalue_ нельзя взять адрес).
 
 ---
-
 ## Вопрос одиннадцатый.
 
 _Вопрос:_
@@ -681,7 +685,7 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
 struct Data
 {
@@ -721,11 +725,9 @@ int main (int argc, char** argv)
 Тут обычно любят спрашивать два вопроса:
 
 1. Что тут будет выведено?
-    
     ```C++
     moved_value: 100
     ```
-    
     Это происходит потому что `std::move(value)` просто развернется  
     в  
     `static_cast<int&&>(value);` _**MOVE**_ **НИЧЕГО НЕ ПЕРЕМЕЩАЕТ, ПЕРЕМЕЩАТЬ ЧТО_ТО МОЖЕТ ТОЛЬКО ОПЕРАТОР КОПИРОВАНИЯ ИЛИ ОПЕРАТОР ПРИСВАИВАНИЯ**.
@@ -733,17 +735,9 @@ int main (int argc, char** argv)
     А это не работает, потому что `std::move()` не работает с примитивными типами, хранящимися на стеке, или с `std::array<>`.
     
 2. Что тут будет выведено?
-    
     ```C++
     move ctr
     copy ctr
     ```
-    
     std::move() в первом случае просто кастит `Data` к `Data&&` и именно поэтому перегрузка выбирает конструктор `Data(Data&& other)`.
-    
-    Во втором случае работает правило, не мувать константный объект, потому что это бессмысленно, и просто будет передаваться сам этот объект без каста. И соответсвенно, будет вызываться конструктор копирования.
-    
-
----
-
-Тут дальше будет идти конспект Балуна по его курсу о ООП:
+    Во втором случае работает правило, не мувать константный объект, потому что это  бессмысленно, и просто будет передаваться сам этот объект без каста. И соответсвенно, будет вызываться конструктор копирования.

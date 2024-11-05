@@ -1,5 +1,5 @@
----
 
+---
 ## Вопрос первый.
 
 _Вопрос:_
@@ -7,18 +7,18 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
-\#define MUL(x) (x * 5)
+#define MUL(x) (x * 5)
 
 int main(int argc, char** argv)
 {
-		const int x = 5;
-		const int result = MUL(x + 5);
+	const int x = 5;
+	const int result = MUL(x + 5);
 
-		std::cout << "Result: " << result << std::endl;
+	std::cout << "Result: " << result << std::endl;
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -33,11 +33,10 @@ Result: 30
 Исходя из вышеописанного, хорошей практикой считается обрамлять все элемента макроса скобками
 
 ```C++
-\#define MUL(x) ((x) * (5))
+#define MUL(x) ((x) * (5))
 ```
 
 ---
-
 ## Вопрос второй.
 
 _Вопрос:_
@@ -45,19 +44,19 @@ _Вопрос:_
 Что выведет данный код?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
-\#define ABS(x) ((x) < 0 ? -(x) : (x))
+#define ABS(x) ((x) < 0 ? -(x) : (x))
 
 int main(int argc, char** argv)
 {
-		int x = 5;
-		const int result = ABS(x++);
+	int x = 5;
+	const int result = ABS(x++);
 
-		std::cout << "Result: " << result << std::endl;
-		std::cout << "X:      " << x << std::endl;
+	std::cout << "Result: " << result << std::endl;
+	std::cout << "X:      " << x << std::endl;
 
-		return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
 ```
 
@@ -71,7 +70,6 @@ X:      7
 Как мы видим, оператор `++` вызывается дважды.
 
 ---
-
 ## Вопрос третий.
 
 _Вопрос:_
@@ -79,20 +77,20 @@ _Вопрос:_
 Какая потенциальная проблема есть в данном коде?
 
 ```C++
-\#include <iostream>
+#include <iostream>
 
-\#define CHECK_EVEN_NUMBER(number)    \
-		if ((number) % 2 == 0)           \
-				std::cout << "number is even" << std::endl;
+#define CHECK_EVEN_NUMBER(number)    \
+	if ((number) % 2 == 0)           \
+		std::cout << "number is even" << std::endl;
 
 int main(int argc, char** argv)
 {
 		int number = 1;
 
 		if (number != 0)
-				CHECK_EVEN_NUMBER(number);
+			CHECK_EVEN_NUMBER(number);
 		else
-				std::cout << "number is zero" << std::endl;
+			std::cout << "number is zero" << std::endl;
 	
 		return EXIT_SUCCESS;
 }
@@ -102,18 +100,19 @@ int main(int argc, char** argv)
 
 ```C++
 if (number != 0)
-		if ((number) % 2 == 0)
-				std::cout << "number is even" << std::endl;
-		else
-				std::cout << "number is zero" << std::endl;
+	if ((number) % 2 == 0)
+		std::cout << "number is even" << std::endl;
+	else
+		std::cout << "number is zero" << std::endl;
 ```
 
 И избежать этого можно только через подход `do {} while(true)` внутри макроса:
 
 ```C++
-\#define CHECK_EVEN_NUMBER(number)                       \
-		do {                                                \
-				if ((number) % 2 == 0)                          \
-						std::cout << "number is even" << std::endl; \
-		} while(false)                                      \
+#define CHECK_EVEN_NUMBER(number)                       \
+	do {                                                \
+		if ((number) % 2 == 0)                          \
+			std::cout << "number is even" << std::endl; \
+	} while(false)                                      \
 ```
+

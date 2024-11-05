@@ -7,11 +7,12 @@
     ```C++
     void process(FILE *f); // сигнатура зафиксирована
     
-    void use_file(const char *name) {
-    		FILE *f = fopen(name, "w");
-    		process(f); // использование f, при котором может быть выброшено исключение
-    
-    		fclose(f);
+    void use_file(const char *name)
+    {
+		FILE *f = fopen(name, "w");
+		process(f); // использование f, при котором может быть выброшено исключение
+
+		fclose(f);
     }
     ```
     
@@ -26,10 +27,11 @@
     ```C++
     void process(FILE *f);
     
-    void use_file(const char *name) {
-    		FILE *f = fopen(name, "w");
-    		
-    		try
+    void use_file(const char *name)
+    {
+		FILE *f = fopen(name, "w");
+		
+		try
         {
             process(f);
         }
@@ -45,7 +47,9 @@
     ```C++
     class FileWrapper
     {
+    
     public:
+    
         FileWrapper(const char* name, const char* mode)
             : m_file{fopen(name, mode)}
         {
@@ -65,17 +69,20 @@
         }
     
     private:
+    
         FILE* m_file;
+        
     };
     ```
     
     И тогда нам не надо будет переживать, что мы забыли вызвать функцию `fclose(f);`:
     
     ```C++
-    void use_file(const char *name) {
-    		FileWrapper wrapper(name, "w");
-    		
-    		try
+    void use_file(const char *name)
+    {
+		FileWrapper wrapper(name, "w");
+		
+		try
         {
             process(wrapper.getFile());
         }
@@ -96,49 +103,39 @@
     Для удаления всех дубликатов я вижу 2 варианта решения данной задачи:
     
     - Использовать `std::sort`, а потом `std::unique`:
-        
         ```C++
         std::sort(vect.begin(), vect.end());
         vect.erase(std::unique(vect.begin(), vect.end()), vect.end());
         ```
-        
         `std::sort` отработает за _O(N · log(N))._
-        
         `std::vector::erase` отработает за _O(N)._
-        
         `std::unique` в худшем случае отработает за _O(N)._
-        
         Значит такой алгоритм работы отработает примерно за _O(N · log(N))._
-        
     - Использовать `std::unordered_set`:
-        
         ```C++
         std::unordered_set<int> un_set(vect.begin(), vect.end());
         vect.assign(un_set.begin(), un_set.end());
         ```
-        
         `std::unordered_set` добавляет в себя элементы, в среднем за _O(N)_ а в худшем случае за _O(N^2)._
-        
         `std::vector::assign`отработает за _O(N)._
-        
         Значит весь алгоритм отработает за _O(N)_, но стоит помнить, что в худшем случае время может измениться до _O(N^2)_.
         
     
-    ---
+---
     
 3. Сколько раз эта программа напечатает слово “hello”? Обоснуйте свой ответ.
-    
     ```C++
-    \#include <stdio.h>
-    \#include <stdlib.h>
-    \#include <unistd.h>
+    #include <stdio.h>
+    #include <stdlib.h>
+    #include <unistd.h>
     
-    int main(int argc, char *argv[]) {
-    		printf("hello");
-    		fork();
-    		printf("\n");
-    
-    		return 0;
+    int main(int argc, char *argv[])
+    {
+		printf("hello");
+		fork();
+		printf("\n");
+
+		return 0;
     }
     ```
     

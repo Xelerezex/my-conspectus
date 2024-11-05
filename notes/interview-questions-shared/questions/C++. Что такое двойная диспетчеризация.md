@@ -1,3 +1,4 @@
+
 ---
 
 ### Ресурсы:
@@ -7,24 +8,20 @@
 3. [Принцип единственной ответственности.](https://www.vishalchovatiya.com/single-responsibility-principle-in-cpp-solid-as-a-rock/)
 
 ---
-
 ## Краткий обзор содержания:
-
-1. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-2. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-3. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-4. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-5. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-    1. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-6. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-7. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-8. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]][[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-9. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-10. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-11. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация|C++. Что такое двойная диспетчеризация]]
-
+1. [[C++. Что такое двойная диспетчеризация#1. Мотивация.|1. Мотивация.]]
+2. [[C++. Что такое двойная диспетчеризация#2. Идентификация типа во время выполнения.|2. Идентификация типа во время выполнения.]]
+3. [[C++. Что такое двойная диспетчеризация#3. Использование полиморфизма.|3. Использование полиморфизма.]]
+4. [[C++. Что такое двойная диспетчеризация#4. Более функциональный и модульный подход.|4. Более функциональный и модульный подход.]]
+5. [[C++. Что такое двойная диспетчеризация#5. Единовременная диспетчеризация.|5. Единовременная диспетчеризация.]]
+    1. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация#5.1. Проблемы, связанные с подходом единой диспетчеризации.|5.1. Проблемы, связанные с подходом единой диспетчеризации.]]
+6. [[C++. Что такое двойная диспетчеризация#6. Двойная диспетчеризация в C++.|6. Двойная диспетчеризация в C++.]]
+7. [[C++. Что такое двойная диспетчеризация#7. Как работает механизм двойной диспетчеризации?|7. Как работает механизм двойной диспетчеризации?]]
+8. [[notes/interview-questions-shared/questions/C++. Что такое двойная диспетчеризация#8. Альтернативный подход к двойной диспетчеризации в современном `C++` с использованием `std variant` и `std visit` .|8. Альтернативный подход к двойной диспетчеризации в современном `C++` с использованием `std variant` и `std visit` .]]]
+9. [[C++. Что такое двойная диспетчеризация#9. Преимуществ механизма двойной диспетчеризации.|9. Преимуществ механизма двойной диспетчеризации.]]
+10. [[C++. Что такое двойная диспетчеризация#10. Пример использования механизма двойной диспетчеризации.|10. Пример использования механизма двойной диспетчеризации.]]
+11. [[C++. Что такое двойная диспетчеризация#11. Заключение|11. Заключение]]
 ---
-
 _Двойная диспетчеризация_ - это механизм в `C++` , который отправляет вызов функции в другую конкретную функцию, в зависимости от их типов, во время выполнения программы.
 
 Другими словами, это вызов функции по средствам двух разных виртуальных таблиц соответствующих разных объектов.
@@ -38,8 +35,11 @@ _Двойная диспетчеризация_ - это механизм в `C+
 ```C++
 class Animal
 {
+
 public:
-    virtual const char *name() = 0;
+
+	virtual const char *name() = 0;
+
 };
 
 using AnimalList = std::vector<Animal*>;
@@ -50,14 +50,20 @@ using AnimalList = std::vector<Animal*>;
 ```C++
 class Cat : Animal
 {
+
 public:
+    
     const char *name() { return "Cat"; }
+
 };
 
 class Dog : Animal
 {
+
 public:
+    
     const char *name() { return "Dog"; }
+
 };
 ```
 
@@ -66,7 +72,6 @@ public:
 Существует класс `Person` , и если он встречает на своем пути `Dog` - он должен испугаться и убежать. А если он видит `Cat` - должен погладить её. И вот перед нами встает проблема - потому что с условиями выше, нам надо знать тип класса-наследника…
 
 ---
-
 ## 2. Идентификация типа во время выполнения.
 
 Поэтому мы подумали, раз нам нужно идентифицировать тип во время выполнения и типов-наследников у нас немного, реализуем это так:
@@ -74,24 +79,30 @@ public:
 ```C++
 class Person 
 {
+
 public:
+    
     void ReactTo(Animal *_animal) 
     {
         if (dynamic_cast<Dog *>(_animal))
+        {
             RunAwayFrom(_animal);
+        }
         else if (dynamic_cast<Cat *>(_animal))
-            TryToPet(_animal);
+        {
+			TryToPet(_animal);
+	    }
     }
 
     void RunAwayFrom(Animal *_animal) 
-		{ 
-				cout << "Run Away From :" << _animal->name() << endl; 
-		}
+	{ 
+		cout << "Run Away From :" << _animal->name() << endl; 
+	}
     
-		void TryToPet(Animal *_animal)    
-		{ 
-				cout << "Try To Pet    :" << _animal->name() << endl; 
-		}
+	void TryToPet(Animal *_animal)    
+	{ 
+		cout << "Try To Pet    :" << _animal->name() << endl; 
+	}
 };
 ```
 
@@ -101,12 +112,18 @@ public:
 //...
 void ReactTo(Animal *_animal) 
 {
-		if (dynamic_cast<Dog *>(_animal))
+	if (dynamic_cast<Dog *>(_animal))
+	{
         RunAwayFrom(_animal);
+    }
     else if (dynamic_cast<Cat *>(_animal))
-        TryToPet(_animal);
-		else if (dynamic_cast<Horse *>(_animal))
-        TryToRide(_animal);
+    {
+		TryToPet(_animal);
+	}
+	else if (dynamic_cast<Horse *>(_animal))
+	{    
+		TryToRide(_animal);
+	}
 }
 //...
 ```
@@ -116,20 +133,35 @@ void ReactTo(Animal *_animal)
 ```C++
 void Person::ReactTo(Animal *_animal) 
 {
-    if (dynamic_cast<Dog *>(_animal) || dynamic_cast<Gerbil *>(_animal)) {
-        if (dynamic_cast<Dog *>(_animal) && dynamic_cast<Dog>()->GetBreed() == DogBreed.Daschund) // Daschund's are the exception
+    if (dynamic_cast<Dog *>(_animal) || dynamic_cast<Gerbil *>(_animal)) 
+    {
+        if (dynamic_cast<Dog *>(_animal) 
+	        && dynamic_cast<Dog>()->GetBreed() == DogBreed.Daschund
+		) // Daschund's are the exception
+		{
             TryToPet(_animal);
+        }
         else
+        {
             RunAwayFrom(_animal);
+	    }
     }
     else if (dynamic_cast<Cat *>(_animal) || dynamic_cast<Pig *>(_animal))
+    {
         TryToPet(_animal);
+    }
     else if (dynamic_cast<Horse *>(_animal))
-        TryToRide(_animal);
+    {
+		TryToRide(_animal);
+    }
     else if (dynamic_cast<Lizard *>(_animal))
+    {
         TryToFeed(_animal);
+    }
     else if (dynamic_cast<Mole *>(_animal))
-        Attack(_animal)
+    {
+		Attack(_animal)
+    }
     // etc.
 }
 ```
@@ -137,7 +169,6 @@ void Person::ReactTo(Animal *_animal)
 И такое уродство будет долго продолжаться, все эти `dynamic_cast<>()` выглядят неправильно. Потом, конечно, можно попробовать вариант с `typeid()` , но в коде будет такая же грязь.
 
 ---
-
 ## 3. Использование полиморфизма.
 
 В какой-то момент мы вспомнили, что можно присвоить типы объектам:
@@ -166,18 +197,29 @@ struct Dog : Animal
 struct Person
 {
     void ReactTo(Animal *_animal)
-		{
+	{
         if (_animal->type() == AnimalType::Cat)
+        {
             TryToPet(_animal);
+        }
         else if (_animal->type() == AnimalType::Dog)
-            RunAwayFrom(_animal);
+        {
+			RunAwayFrom(_animal);
+	    }
     }
 
-    void RunAwayFrom(Animal *_animal) { cout << "Run Away From " << _animal->name() << endl; }
-    void TryToPet(Animal *_animal) { cout << "Try To Pet " << _animal->name() << endl; }
+    void RunAwayFrom(Animal *_animal) 
+    { 
+	    cout << "Run Away From " << _animal->name() << endl; 
+	}
+    void TryToPet(Animal *_animal)
+    { 
+	    cout << "Try To Pet " << _animal->name() << endl; 
+	}
 };
 
-int main() {
+int main()
+{
     Person p;
 
     Animal *animal_0 = new Dog;
@@ -192,7 +234,6 @@ int main() {
 Так мы получим прирост в производительности, но все еще будет проблема с огромным хвостом из `if/else` .
 
 ---
-
 ## 4. Более функциональный и модульный подход.
 
 ```C++
@@ -214,7 +255,6 @@ void Person::ReactTo(Animal *_animal)
 Метод неплохой, но тут мы неявно переписываем [[notes/interview-questions-shared/questions/С++. Что такое виртуальная таблица методов|С++. Что такое виртуальная таблица методов]], которую итак создает компилятор.
 
 ---
-
 ## 5. Единовременная диспетчеризация.
 
 Поэтому, вместо того, что бы хранить какое-то поле с типом класса или использовать RTTI (`typeid()`). Мы можем использовать посредника, который будет направлять вызовы функций к надлежащему поведению.
@@ -224,20 +264,28 @@ using AnimalList = std::vector<class Animal*>;
 
 class Animal
 {
+
 public:
+
     virtual string name() = 0;
     virtual void Visit(class ReactVisitor *visitor) = 0;
+    
 };
 
 class ReactVisitor
 {
+
 public:
+
     class Person *person = nullptr;
+    
 };
 
 class Person
 {
+
 public:
+
     void ReactTo (Animal *_animal)
     {
         ReactVisitor visitor{this};
@@ -245,24 +293,35 @@ public:
     }
 
     void RunAwayFrom(Animal *_animal) 
-		{ cout << "Run away from " << _animal->name() << endl; }
+	{ 
+		cout << "Run away from " << _animal->name() << endl; 
+	}
 
     void TryToPet(Animal *_animal) 
-		{ cout << "Try to pet " << _animal->name() << endl; }
+	{ 
+		cout << "Try to pet " << _animal->name() << endl; 
+	}
+	
 };
 
 class Cat : public Animal
 {
 public:
     string name() { return "Cat"; }
-    void Visit(ReactVisitor *visitor) { visitor->person->TryToPet(this); }
+    void Visit(ReactVisitor *visitor)
+    { 
+	    visitor->person->TryToPet(this); 
+	}
 };
 
 class Dog : public Animal
 {
 public:
     string name() { return "Dog"; }
-    void Visit(ReactVisitor *visitor) { visitor->person->RunAwayFrom(this); }
+    void Visit(ReactVisitor *visitor)
+    { 
+	    visitor->person->RunAwayFrom(this);
+	}
 };
 
 int main() 
@@ -271,7 +330,9 @@ int main()
     AnimalList animals = {new Dog, new Cat};
     
     for(auto&& animal : animals)
-        p.ReactTo(animal);    
+	{
+		p.ReactTo(animal);
+	}        
     
     return 0;
 }
@@ -289,7 +350,6 @@ int main()
 2. И что если у класса `Person` есть другие модели поведения, которые нужно произвести? Получается мы будем добавлять по новому виртуальному методу в базовый класс для каждого из них?
 
 ---
-
 ## 6. Двойная диспетчеризация в `C++`.
 
 Обойти вышеперечисленные проблемы одиночной диспетчеризации нам поможет добавления еще одного слоя косвенных ссылок.
@@ -297,60 +357,91 @@ int main()
 ```C++
 using AnimalList = std::vector<class Animal*>;
 
-/* -------------------------------- Added Visitor Classes ------------------------------- */
+/* --------------------------- Added Visitor Classes --------------------------- */
 class AnimalVisitor 
 {
+
 public:
+
     virtual void Visit(class Cat*) = 0;
     virtual void Visit(class Dog*) = 0;
+    
 };
 
 class ReactVisitor : public AnimalVisitor
 {
+
 public:
+
     ReactVisitor(class Person* p) : person{p} {}
     void Visit(class Cat *c);
     void Visit(class Dog *d);
 
     class Person* person = nullptr;
+    
 };
-/* --------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
 class Animal
 {
+
 public:
+
     virtual string name() = 0;
     virtual void Visit(class AnimalVisitor* visitor) = 0;
+    
 };
 
 class Cat : public Animal
 {
+
 public:
+
     string name() { return "Cat"; }
-    void Visit(AnimalVisitor* visitor) { visitor->Visit(this); } // 2nd dispatch <<---------
+    
+    void Visit(AnimalVisitor* visitor)
+	{ 
+		visitor->Visit(this); // 2nd dispatch <<--------- 
+	}
+    
 };
 
 class Dog : public Animal
 {
+
 public:
+
     string name() { return "Dog"; }
-    void Visit(AnimalVisitor* visitor) { visitor->Visit(this); } // 2nd dispatch <<---------
+    void Visit(AnimalVisitor* visitor) 
+    { 
+	    visitor->Visit(this); // 2nd dispatch <<---------
+	} 
+    
 };
 
 class Person
 {
+
 public:
+
     void ReactTo(Animal *_animal)
     {
         ReactVisitor visitor{this};
         _animal->Visit(&visitor); // 1st dispatch <<---------
     }
 
-    void RunAwayFrom(Animal *_animal) { cout << "Run Away From " << _animal->name() << endl; }
-    void TryToPet(Animal *_animal)    { cout << "Try To Pet " << _animal->name() << endl; }
+    void RunAwayFrom(Animal *_animal)
+    { 
+	    cout << "Run Away From " << _animal->name() << endl; 
+	}
+    void TryToPet(Animal *_animal)
+	{ 
+		cout << "Try To Pet " << _animal->name() << endl; 
+	}
+	
 };
 
-/* -------------------------------- Added Visitor Methods ------------------------------- */
+/* -------------------------------- Added Visitor Methods ---------------------- */
 void ReactVisitor::Visit(Cat *cat)  // Finally comes here <<-------------
 {
     person->TryToPet(cat);
@@ -359,14 +450,16 @@ void ReactVisitor::Visit(Dog *dog)   // Finally comes here <<-------------
 { 
     person->RunAwayFrom(dog);
 }
-/* --------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
 int main() 
 {
     Person p;
 
     for(auto&& animal : AnimalList{new Dog, new Cat})
+    {
         p.ReactTo(animal);
+    }
     
     return 0; 
 }
@@ -392,10 +485,6 @@ Try To Pet Cat
 
 ![[double-dispatch-cpp-stack-frame-vishal-chovatiya.gif]]
 
-  
-
-  
-
 ---
 
 ## 8. Альтернативный подход к двойной диспетчеризации в современном `C++` с использованием `std::variant` и `std::visit` .
@@ -403,41 +492,50 @@ Try To Pet Cat
 ```C++
 struct Animal
 {
-		virtual string name() = 0;
+	virtual string name() = 0;
 };
 
 struct Cat : Animal
 {
-		string name() { return "Cat"; }
+	string name() { return "Cat"; }
 };
 
 struct Dog : Animal
 {
-		string name() { return "Dog"; }
+	string name() { return "Dog"; }
 };
 
 struct Person
 {
-		void RunAwayFrom(Animal* animal) { cout << "Run away from " << animal->name() <<endl; }
-		void TryToPet(Animal* animal) { cout << "Try to pet " << animal->name() << endl; }
+	void RunAwayFrom(Animal* animal)
+	{ 
+		cout << "Run away from " << animal->name() << endl; 
+	}
+	void TryToPet(Animal* animal)
+	{ 
+		cout << "Try to pet " << animal->name() << endl; 
+	}
 };
 
 struct ReactVisitor
 {
-		void operator() (Cat *c) { person->TryToPet(c); }
-		void operator() (Dog *d) { person->RunAwayFrom(d); }
-		Person* person = nullptr;
+	void operator() (Cat *c) { person->TryToPet(c); }
+	void operator() (Dog *d) { person->RunAwayFrom(d); }
+	Person* person = nullptr;
 };
 
 using animal_ptr = std::variant<Cat*, Dog*>;
 
 int main()
 {
-		Person p;
-		ReactVisitor rv{&p};
+	Person p;
+	ReactVisitor rv{&p};
 
-		for (auto&& animal : vector<animal_ptr>({new Dog, new Cat}))
-				std::visit(rv, animal);
+	for (auto&& animal : vector<animal_ptr>({new Dog, new Cat}))
+	{
+		std::visit(rv, animal);
+	}
+
 }
 ```
 
@@ -456,7 +554,7 @@ Try to pet Cat
 1. Соблюдение принципа единой ответственности - означает разделение специфичной для типа логики в отдельной сущности/классе. В нашем случае `ReactVisitor` обрабатывает реакцию для разных типов животных.
 2. Соблюдение принципа _“Open-Closed Principle”_ - значит, что новая функциональность может быть добавлена без изменения заголовков классов в момент, когда мы вставили метод `visit()` . При этом, если хочется вставить новый метод `sound()` - надо будет добавить отдельный класс `SoundVisitor`.
 3. Полезно при юнит-тестировании приложения.
-4. Вырастает производительность в сравнении с использованием `dynamic_cast`, `typeid()` или же сравнений (==) `enum` или `string`.
+4. Вырастает производительность в сравнении с использованием `dynamic_cast`, `typeid()` или же сравнений (`==`) `enum` или `string`.
 
 ---
 
