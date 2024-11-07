@@ -3,7 +3,7 @@
 ## Общие вопросы
 ---
 
-1. [[С++. Что такое The Rule of Three|С++. Что такое The Rule of Three]]
+1. [[С++. Что такое The Rule of Zero, Three, Five|С++. Что такое The Rule of Zero, Three, Five]]
 2. [[C++. Что такое copy-and-swap идиома|C++. Что такое copy-and-swap идиома]]
 3. [[C++. Почему в copy-and-swap идиоме, swap - это friend функция|C++. Почему в copy-and-swap идиоме, swap - это friend функция]]
 4. [[C++. Что такое Name Lookup|C++. Что такое Name Lookup]]

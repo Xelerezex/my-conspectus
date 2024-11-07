@@ -13,16 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview-questions-shared/Overview information.md",
+                "file": "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview information"
+              "title": "TrueConf. C++ Qt. Основная часть"
             }
           },
           {
-            "id": "88275f64f848578e",
+            "id": "65cbe3739f29e81a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,15 +195,18 @@
   },
   "active": "6924094de7ce98ac",
   "lastOpenFiles": [
-    "notes/interview-questions-shared/Overview information.md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
+    "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+    "Untitled.md",
     "notes/📋TODO.md",
+    "notes/interview-questions-shared/questions/cpp/С++. Что такое The Rule of Zero, Three, Five.md",
+    "notes/interview-questions-shared/Overview information.md",
+    "notes/interview-questions-shared/questions/companies/Топ Системы. Основная часть.md",
     "notes/interview-questions-shared/questions/cpp/containers/C++. Containers. Overview..md",
     "notes/interview-questions-shared/questions/companies/Strata Solutions. Основная часть..md",
-    "notes/interview-questions-shared/questions/companies/Топ Системы. Основная часть.md",
     "notes/interview-questions-shared/questions/cpp/containers",
     "notes/interview-questions-shared/questions/companies/❓Unknown❓. Ебнутые ребята с указателями и памятью..md",
-    "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
     "notes/interview-questions-shared/questions/companies/VK Поиск. Секция устных вопросов..md",
     "notes/interview-questions-shared/questions/companies/VK Поиск. Алгоритмическая секция..md",
     "notes/interview-questions-shared/questions/general/Вопросы про C++, встречающиеся на собеседованиях.md",
@@ -212,12 +215,10 @@
     "notes/interview-questions-shared/questions/companies/VK Поиск. Тестовое задание перед собеседованиями.md",
     "notes/interview-questions-shared/questions/companies/ГридПоинтс. Задачи с собеседования.md",
     "notes/interview-questions-shared/questions/general",
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
     "notes/interview-questions-shared/questions/companies/СберДевайсы. Вопросы техскрининга.md",
     "images/2gis-move-question.png",
     "notes/interview-questions-shared/questions/qt/Qt. Как модель-Представление выглядит в Qt.md",
     "notes/interview-questions-shared/questions/cpp/С++. Шуточный пример написания шаблонов на макросах.md",
-    "notes/interview-questions-shared/questions/cpp/С++. Что такое The Rule of Three.md",
     "notes/interview-questions-shared/questions/cpp/C++. Контайнеры. std array.md",
     "notes/interview-questions-shared/questions/cpp/C++. Понятие Владения.md",
     "notes/interview-questions-shared/questions/companies",
@@ -227,7 +228,6 @@
     "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
     "notes/interview-questions-shared/questions/cpp/C++. Макросы.md",
     "notes/interview-questions-shared/questions/cpp/C++. Основы.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Задачи по динамической памяти.md",
     "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
