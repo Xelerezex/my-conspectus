@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "6924094de7ce98ac",
+            "id": "87184254de6630d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5
+    "width": 200
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -193,13 +193,17 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "6924094de7ce98ac",
+  "active": "87184254de6630d1",
   "lastOpenFiles": [
     "notes/interview-questions-shared/Overview information.md",
-    "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
-    "notes/interview-questions-shared/questions/qt/Qt. Сколько параметров в QObject--connect().md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
+    "notes/strong-ideas/10. Группировка в функциях и файлах.md",
+    "images/ff.png",
+    "resources/lambda-brain-not-null/lambda-brain-not-null-10-grouping-in-ff.zip",
+    "notes/strong-ideas/9. Три свойства качественного кода.md",
+    "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
+    "notes/interview-questions-shared/questions/qt/Qt. Сколько параметров в QObject--connect().md",
     "Untitled.md",
     "notes/📋TODO.md",
     "notes/interview-questions-shared/questions/cpp/С++. Что такое The Rule of Zero, Three, Five.md",
@@ -221,26 +225,21 @@
     "notes/interview-questions-shared/questions/qt/Qt. Как модель-Представление выглядит в Qt.md",
     "notes/interview-questions-shared/questions/cpp/С++. Шуточный пример написания шаблонов на макросах.md",
     "notes/interview-questions-shared/questions/cpp/C++. Контайнеры. std array.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Понятие Владения.md",
     "notes/interview-questions-shared/questions/companies",
     "notes/interview-questions-shared/questions/other",
     "notes/interview-questions-shared/questions/qt",
     "notes/interview-questions-shared/questions/cpp",
-    "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Макросы.md",
     "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
     "images/coordinate_systems.png",
     "resources/interview-questions",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-9-3-propers.zip",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
     "images/vao_with_ebo.png",
     "images/Untitled 2 2.png",
     "images/Untitled 2.png",
     "images/Untitled.png",
     "images/Untitled.svg",
-    "images/nfa-example-3-5.svg",
-    "images/basic_lighting_specular_theory.png"
+    "images/nfa-example-3-5.svg"
   ]
 }
