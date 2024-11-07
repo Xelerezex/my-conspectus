@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
+                "file": "notes/interview-questions-shared/Overview information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TrueConf. C++ Qt. Основная часть"
+              "title": "Overview information"
             }
           },
           {
@@ -195,13 +195,14 @@
   },
   "active": "6924094de7ce98ac",
   "lastOpenFiles": [
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
+    "notes/interview-questions-shared/Overview information.md",
     "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+    "notes/interview-questions-shared/questions/qt/Qt. Сколько параметров в QObject--connect().md",
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
     "Untitled.md",
     "notes/📋TODO.md",
     "notes/interview-questions-shared/questions/cpp/С++. Что такое The Rule of Zero, Three, Five.md",
-    "notes/interview-questions-shared/Overview information.md",
     "notes/interview-questions-shared/questions/companies/Топ Системы. Основная часть.md",
     "notes/interview-questions-shared/questions/cpp/containers/C++. Containers. Overview..md",
     "notes/interview-questions-shared/questions/companies/Strata Solutions. Основная часть..md",
@@ -227,7 +228,6 @@
     "notes/interview-questions-shared/questions/cpp",
     "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
     "notes/interview-questions-shared/questions/cpp/C++. Макросы.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Основы.md",
     "Untitled.canvas",
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
