@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38a553de38735a33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview-questions-shared/Overview information.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Overview information"
-            }
-          },
-          {
-            "id": "65cbe3739f29e81a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2GIS. Секция плюсов (вопросы + карточки подготовки)."
-            }
-          },
-          {
             "id": "87184254de6630d1",
             "type": "leaf",
             "state": {
@@ -47,6 +19,34 @@
               },
               "icon": "lucide-file",
               "title": "2GIS. Секция Qt-QML."
+            }
+          },
+          {
+            "id": "65cbe3739f29e81a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Qt. Заметки/QML/1. QML. Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. QML. Overview"
+            }
+          },
+          {
+            "id": "a9783164fb84e327",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. QML. Quick starter."
             }
           }
         ],
@@ -193,11 +193,14 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "87184254de6630d1",
+  "active": "a9783164fb84e327",
   "lastOpenFiles": [
-    "notes/interview-questions-shared/Overview information.md",
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+    "notes/Qt. Заметки/QML/1. QML. Overview.md",
+    "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
+    "notes/Qt. Заметки/QML",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
+    "notes/interview-questions-shared/Overview information.md",
     "notes/strong-ideas/10. Группировка в функциях и файлах.md",
     "images/ff.png",
     "resources/lambda-brain-not-null/lambda-brain-not-null-10-grouping-in-ff.zip",
@@ -224,7 +227,6 @@
     "images/2gis-move-question.png",
     "notes/interview-questions-shared/questions/qt/Qt. Как модель-Представление выглядит в Qt.md",
     "notes/interview-questions-shared/questions/cpp/С++. Шуточный пример написания шаблонов на макросах.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Контайнеры. std array.md",
     "notes/interview-questions-shared/questions/companies",
     "notes/interview-questions-shared/questions/other",
     "notes/interview-questions-shared/questions/qt",
@@ -233,7 +235,6 @@
     "notes/interview-questions-shared/questions",
     "resources/interview-questions/dadaca219d0e8bba.pdf",
     "images/coordinate_systems.png",
-    "resources/interview-questions",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
     "images/vao_with_ebo.png",
     "images/Untitled 2 2.png",
