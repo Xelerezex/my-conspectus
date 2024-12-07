@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "2. QML. Quick starter."
             }
+          },
+          {
+            "id": "85039cd854b42f2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Asymptotic estimates of algorithms"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,12 +116,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 261.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -194,11 +207,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "65cbe3739f29e81a",
+  "active": "85039cd854b42f2e",
   "lastOpenFiles": [
+    "images/general-asymptotics.png",
+    "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer",
+    "notes/courses",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
-    "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/Qt. Заметки/QML/1. QML. Overview.md",
     "images/qml-notes/scene.webp",
     "images/qml-notes",
@@ -228,19 +246,13 @@
     "notes/interview-questions-shared/questions/companies/VK Поиск. Тестовое задание перед собеседованиями.md",
     "notes/interview-questions-shared/questions/companies/ГридПоинтс. Задачи с собеседования.md",
     "notes/interview-questions-shared/questions/general",
-    "notes/interview-questions-shared/questions/companies/СберДевайсы. Вопросы техскрининга.md",
     "images/2gis-move-question.png",
     "notes/interview-questions-shared/questions/companies",
-    "notes/interview-questions-shared/questions/other",
-    "notes/interview-questions-shared/questions/qt",
-    "notes/interview-questions-shared/questions/cpp",
     "Untitled.canvas",
     "images/coordinate_systems.png",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
     "images/vao_with_ebo.png",
     "images/Untitled 2 2.png",
-    "images/Untitled 2.png",
-    "images/Untitled.png",
-    "images/Untitled.svg"
+    "images/Untitled 2.png"
   ]
 }
