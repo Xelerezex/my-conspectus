@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Asymptotic estimates of algorithms"
             }
+          },
+          {
+            "id": "19c780542e6c7f83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/strong-ideas/12. Как правильно писать тесты.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12. Как правильно писать тесты"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -207,14 +221,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "85039cd854b42f2e",
+  "active": "19c780542e6c7f83",
   "lastOpenFiles": [
+    "notes/strong-ideas/11. Антипаттерн Самодокументирующийся код.md",
+    "notes/strong-ideas/12. Как правильно писать тесты.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "images/big-theta-notation.png",
     "images/big-omega-notation.png",
     "images/big-o-notation.png",
     "images/general-asymptotics.png",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms",
     "notes/courses/the-algorithmic-foundation-of-a-programmer",
     "notes/courses",
@@ -224,7 +240,6 @@
     "images/qml-notes/scene.webp",
     "images/qml-notes",
     "images/New folder",
-    "notes/strong-ideas/11. Антипаттерн Самодокументирующийся код.md",
     "notes/strong-ideas/10. Группировка в функциях и файлах.md",
     "notes/Qt. Заметки/QML",
     "notes/interview-questions-shared/Overview information.md",
@@ -254,7 +269,6 @@
     "Untitled.canvas",
     "images/coordinate_systems.png",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
-    "images/vao_with_ebo.png",
-    "images/Untitled 2 2.png"
+    "images/vao_with_ebo.png"
   ]
 }
