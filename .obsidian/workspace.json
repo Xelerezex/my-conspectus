@@ -209,6 +209,9 @@
   },
   "active": "85039cd854b42f2e",
   "lastOpenFiles": [
+    "images/big-theta-notation.png",
+    "images/big-omega-notation.png",
+    "images/big-o-notation.png",
     "images/general-asymptotics.png",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
@@ -252,7 +255,6 @@
     "images/coordinate_systems.png",
     "resources/unsorted/qt-5-linux-build-fix-error.png",
     "images/vao_with_ebo.png",
-    "images/Untitled 2 2.png",
-    "images/Untitled 2.png"
+    "images/Untitled 2 2.png"
   ]
 }
