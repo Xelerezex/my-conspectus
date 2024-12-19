@@ -55,26 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
+                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asymptotic estimates of algorithms"
+              "title": "Linear Search"
             }
           },
           {
-            "id": "19c780542e6c7f83",
+            "id": "f24d6d92d0df4642",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/strong-ideas/14. Отладка как наука.md",
+                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14. Отладка как наука"
+              "title": "Binary Search"
             }
           }
         ],
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -221,14 +222,22 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "19c780542e6c7f83",
+  "active": "f24d6d92d0df4642",
   "lastOpenFiles": [
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
+    "images/linear-vs-binary-search-best-case.gif",
+    "images/linear-vs-binary-search-worst-case.gif",
+    "images/binary-and-linear-search-animations.gif",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
+    "images/Pasted image 20241209103844.png",
+    "images/linear-search.gif",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms",
+    "notes/strong-ideas/14. Отладка как наука.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-14-debugging-as-science.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-14-debugging-as-science.7z",
     "notes/strong-ideas/13. Как правильно относиться к TDD.md",
-    "notes/strong-ideas/14. Отладка как наука.md",
     "notes/strong-ideas/12. Как правильно писать тесты.md",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "notes/strong-ideas/11. Антипаттерн Самодокументирующийся код.md",
     "images/big-theta-notation.png",
     "images/big-omega-notation.png",
@@ -247,7 +256,6 @@
     "notes/strong-ideas/10. Группировка в функциях и файлах.md",
     "notes/Qt. Заметки/QML",
     "notes/interview-questions-shared/Overview information.md",
-    "images/ff.png",
     "resources/lambda-brain-not-null/lambda-brain-not-null-10-grouping-in-ff.zip",
     "notes/strong-ideas/9. Три свойства качественного кода.md",
     "notes/interview-questions-shared/questions/companies/TrueConf. C++ Qt. Основная часть.md",
@@ -258,17 +266,9 @@
     "notes/interview-questions-shared/questions/companies/Топ Системы. Основная часть.md",
     "notes/interview-questions-shared/questions/cpp/containers/C++. Containers. Overview..md",
     "notes/interview-questions-shared/questions/companies/Strata Solutions. Основная часть..md",
-    "notes/interview-questions-shared/questions/cpp/containers",
     "notes/interview-questions-shared/questions/companies/❓Unknown❓. Ебнутые ребята с указателями и памятью..md",
     "notes/interview-questions-shared/questions/companies/VK Поиск. Секция устных вопросов..md",
     "notes/interview-questions-shared/questions/companies/VK Поиск. Алгоритмическая секция..md",
-    "notes/interview-questions-shared/questions/general/Вопросы про C++, встречающиеся на собеседованиях.md",
-    "notes/interview-questions-shared/questions/cpp/C++. ООП.md",
-    "notes/interview-questions-shared/questions/general",
-    "images/2gis-move-question.png",
-    "Untitled.canvas",
-    "images/coordinate_systems.png",
-    "resources/unsorted/qt-5-linux-build-fix-error.png",
-    "images/vao_with_ebo.png"
+    "Untitled.canvas"
   ]
 }
