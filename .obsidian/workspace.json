@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
+                "file": "notes/interview-questions-shared/questions/cpp/С++. Как выглядит память внутри объектов, при разных сценариях.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Binary Search"
+              "title": "С++. Как выглядит память внутри объектов, при разных сценариях"
             }
           }
         ],
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 424.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -224,12 +223,14 @@
   },
   "active": "f24d6d92d0df4642",
   "lastOpenFiles": [
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
+    "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
+    "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "images/linear-vs-binary-search-best-case.gif",
     "images/linear-vs-binary-search-worst-case.gif",
     "images/binary-and-linear-search-animations.gif",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
     "images/Pasted image 20241209103844.png",
     "images/linear-search.gif",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms",
@@ -243,7 +244,6 @@
     "images/big-omega-notation.png",
     "images/big-o-notation.png",
     "images/general-asymptotics.png",
-    "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms",
     "notes/courses/the-algorithmic-foundation-of-a-programmer",
     "notes/courses",

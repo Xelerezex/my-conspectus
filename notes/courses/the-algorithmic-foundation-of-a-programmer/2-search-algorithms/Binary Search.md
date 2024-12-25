@@ -171,7 +171,16 @@ bool binary_search(
 И значение присутсвует в массиве при условии, что первый итератор не равен второму и таргетное значение не равно первому итератору. То есть `first != last; value >= *first`. Этого достаточно, что убедить в том, что в данном массиве есть такое значение.
 ### `std::lower_bound()`
 
+Алгоритм добавлен с деабжной информацией:
+
 ```cpp
+#include <algorithm>
+#include <iostream>
+#include <sstream>
+#include <iterator>
+#include <numeric>
+#include <vector>
+
 template<
 	class ForwardIt, 
 	class T = typename std::iterator_traits<ForwardIt>::value_type,
@@ -194,18 +203,55 @@ ForwardIt lower_bound(
 		 currentIterator = first;
 		 step = count / 2;
 		 std::advance(currentIterator, step); // Передвигаем наш итератор на шаг (который равен половине от нынешнего количества элементов, по которым производится поиск)
+
+		// DEBUG:
+		std::cout << "step: " << step 
+				  << ", distance: "<< std::distance(first, currentIterator) 
+				  << ", count: " << count << std::endl;
+
 		if (comparator(*currentIterator, value)) // Если нынешний итератор меньше, чем значение
 		{
 		    first = ++currentIterator; // теперь левая граница смотрит на следующий индекс за найденным 
 			count -= step + 1; // Сокращаем количество элементов для поиска
+			// DEBUG:
+			std::cout << "left" << std::endl;
 		}
 		else
 		{
 			count = step; // Оставляем лишь уполовинненый массив
+			// DEBUG:
+			std::cout << "right" << std::endl;
 		}
 	}
 	
 	return first;
+}
+
+int main()
+{
+    std::vector<int> v = {
+        1, 1, 1, 2, 3,
+        4, 5, 5, 5, 5,
+        5, 6, 6, 6, 6,
+        7, 8, 9, 10, 10,
+        10, 10
+
+    }; // 22
+    
+    const auto target = lower_bound(
+	    std::begin(v), 
+	    std::end(v), 
+	    10, 
+	    [](int a, int b){ return a < b; }
+	    );
+    if (std::end(v) != target)
+    {
+        std::cout << "From begin: " 
+		          << std::distance(std::begin(v), target)  << std::endl
+                  << "From end: " 
+                  << std::distance(std::end(v), target) << std::endl;
+    }
+    return 0;
 }
 ```
 
@@ -252,3 +298,9 @@ ForwardIt upper_bound(
 	return first;
 }
 ```
+
+---
+## Небольшой инсайдик про бинарный поиск
+Он так же применим в прикладных задачах, где все еще нет ключей, но есть неявная монотонность.
+Под это условие попадает ряд задач, где если для какой-то последовательности некоторое условие не выполняется, а потом все время выполняется, то точку перехода без проблем можно искать бинарным поиском.
+Если есть задача, где встречаются такие слова, как "Максимальное ..., было минимально" или "Минимальное ..., было максимально", то это верный признак того, что задачу стоит решать через двоичный поиск по ответу. Другими словами - бинарный поиск хорошо позволяет найти на данных некое максимальное/минимальное (ака экстремумы).
