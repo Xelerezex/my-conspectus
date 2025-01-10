@@ -108,7 +108,6 @@ int LowerBound(
     return -1;
 }
 
-
 int main()
 {
     const std::vector<int> values {
@@ -136,6 +135,32 @@ int main()
 	{
 		return right + 1;
 	}
+```
+
+Кстати если хочется найти именно не точное левое значение, а границу. Например при поиске в `1 2 4` значения `0` или `3` - выводило позицию `0` и `2` соответсвенно, то надо алгоритм подправить как:
+```cpp
+int LowerBound(
+    const std::vector<int>& data,
+    std::size_t target
+)
+{
+    std::size_t left = 0;
+    std::size_t right = data.size();
+  
+    while (left < right)
+    {
+        std::size_t middle = left + ((right - left) / 2);
+        if (target <= data[middle])
+        {
+            right = middle;
+        }
+        else
+        {
+            left = middle + 1;
+        }
+    }
+    return left;
+}
 ```
 ---
 ## Алгоритмы бинарного поиска из стандартной библиотеки
