@@ -268,7 +268,7 @@ int main()
 	    std::end(v), 
 	    10, 
 	    [](int a, int b){ return a < b; }
-	    );
+	);
     if (std::end(v) != target)
     {
         std::cout << "From begin: " 
