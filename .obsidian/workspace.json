@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
+                "file": "notes/strong-ideas/19. Как правильно готовить тесты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18. Прикладной хак из функционального программирования"
+              "title": "19. Как правильно готовить тесты"
             }
           }
         ],
@@ -209,9 +209,12 @@
   },
   "active": "0a9dcb14979c8bd8",
   "lastOpenFiles": [
+    "resources/unsorted/build_boost_instruction.txt",
+    "resources/lambda-brain-not-null/lambda-brain-not-null-19-howto-prepare-tests-correctly.zip",
+    "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
+    "notes/strong-ideas/19. Как правильно готовить тесты.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-18-hack-from-functional-programming.zip",
     "notes/strong-ideas/17. Важные принципы хорошего кода.md",
-    "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
     "notes/strong-ideas/16. Три правила простого проектного дизайна.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-17-important-principles-of-good-code.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-16-3-rules-of-simple-project-design.zip",
@@ -226,7 +229,6 @@
     "resources/lambda-brain-not-null/15-5-tips-to-improve-the-quality-of-software-design.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-1-3-levels-1-with-corrected.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-1-3-levels-1-with-error.zip",
-    "resources/lambda-brain-not-null/Downloads.zip",
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
@@ -236,7 +238,6 @@
     "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
     "notes/job-searching/Как сделать резюме.md",
     "notes/interview-questions-shared/questions/cpp/C++. Что такое двойная диспетчеризация.md",
-    "notes/job-searching",
     "notes/interview-questions-shared/questions/cpp/С++. Как выглядит память внутри объектов, при разных сценариях.md",
     "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
@@ -254,7 +255,6 @@
     "images/general-asymptotics.png",
     "notes/Qt. Заметки/QML/1. QML. Overview.md",
     "notes/strong-ideas/10. Группировка в функциях и файлах.md",
-    "notes/interview-questions-shared/Overview information.md",
     "Untitled.canvas"
   ]
 }
