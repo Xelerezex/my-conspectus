@@ -36,20 +36,6 @@
             }
           },
           {
-            "id": "a609ec76c51c4cd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Binary Search"
-            }
-          },
-          {
             "id": "0a9dcb14979c8bd8",
             "type": "leaf",
             "state": {
@@ -61,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "19. Как правильно готовить тесты"
+            }
+          },
+          {
+            "id": "95bde23b6b8f0492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/courses/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Two Pointers Method"
             }
           }
         ],
@@ -207,12 +207,27 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "0a9dcb14979c8bd8",
+  "active": "95bde23b6b8f0492",
   "lastOpenFiles": [
+    "notes/strong-ideas/19. Как правильно готовить тесты.md",
+    "images/algo-foundation-two-pointers-9.png",
+    "images/algo-foundation-two-pointers-8.png",
+    "images/algo-foundation-two-pointers-7.png",
+    "images/algo-foundation-two-pointers-6.png",
+    "images/algo-foundation-two-pointers-5.png",
+    "images/algo-foundation-two-pointers-4.png",
+    "images/algo-foundation-two-pointers-3.png",
+    "images/algo-foundation-two-pointers-2.png",
+    "images/algo-foundation-two-pointers-1.png",
+    "images/algo-foundation-binary-search.png",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
+    "Untitled.canvas",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method",
     "resources/unsorted/build_boost_instruction.txt",
     "resources/lambda-brain-not-null/lambda-brain-not-null-19-howto-prepare-tests-correctly.zip",
     "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
-    "notes/strong-ideas/19. Как правильно готовить тесты.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-18-hack-from-functional-programming.zip",
     "notes/strong-ideas/17. Важные принципы хорошего кода.md",
     "notes/strong-ideas/16. Три правила простого проектного дизайна.md",
@@ -227,34 +242,18 @@
     "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-15-5-tips-to-improve-the-quality-of-software-design.zip",
     "resources/lambda-brain-not-null/15-5-tips-to-improve-the-quality-of-software-design.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-1-3-levels-1-with-corrected.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-1-3-levels-1-with-error.zip",
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
-    "images/Pasted image 20250111171147.png",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
     "notes/job-searching/Как сделать резюме.md",
     "notes/interview-questions-shared/questions/cpp/C++. Что такое двойная диспетчеризация.md",
     "notes/interview-questions-shared/questions/cpp/С++. Как выглядит память внутри объектов, при разных сценариях.md",
     "notes/interview-questions-shared/questions/cpp/C++. Аллокация памяти. Основная информация.md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
-    "images/linear-vs-binary-search-best-case.gif",
-    "images/linear-vs-binary-search-worst-case.gif",
-    "images/binary-and-linear-search-animations.gif",
-    "images/Pasted image 20241209103844.png",
-    "images/linear-search.gif",
     "notes/strong-ideas/13. Как правильно относиться к TDD.md",
     "notes/strong-ideas/12. Как правильно писать тесты.md",
     "notes/strong-ideas/11. Антипаттерн Самодокументирующийся код.md",
-    "images/big-theta-notation.png",
-    "images/big-omega-notation.png",
-    "images/big-o-notation.png",
-    "images/general-asymptotics.png",
-    "notes/Qt. Заметки/QML/1. QML. Overview.md",
-    "notes/strong-ideas/10. Группировка в функциях и файлах.md",
-    "Untitled.canvas"
+    "notes/Qt. Заметки/QML/1. QML. Overview.md"
   ]
 }
