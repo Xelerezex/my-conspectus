@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 278.5
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -209,18 +209,19 @@
   },
   "active": "95bde23b6b8f0492",
   "lastOpenFiles": [
-    "notes/strong-ideas/19. Как правильно готовить тесты.md",
+    "images/algo-foundation-two-pointers-17.png",
+    "images/algo-foundation-two-pointers-16.png",
+    "images/algo-foundation-two-pointers-15.png",
+    "images/algo-foundation-two-pointers-14.png",
+    "images/algo-foundation-two-pointers-13.png",
+    "images/algo-foundation-two-pointers-12.png",
+    "images/algo-foundation-two-pointers-11.png",
     "images/algo-foundation-two-pointers-9.png",
+    "notes/courses/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
+    "images/algo-foundation-two-pointers-10.png",
+    "notes/strong-ideas/19. Как правильно готовить тесты.md",
     "images/algo-foundation-two-pointers-8.png",
     "images/algo-foundation-two-pointers-7.png",
-    "images/algo-foundation-two-pointers-6.png",
-    "images/algo-foundation-two-pointers-5.png",
-    "images/algo-foundation-two-pointers-4.png",
-    "images/algo-foundation-two-pointers-3.png",
-    "images/algo-foundation-two-pointers-2.png",
-    "images/algo-foundation-two-pointers-1.png",
-    "images/algo-foundation-binary-search.png",
-    "notes/courses/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
     "Untitled.canvas",
     "notes/courses/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
