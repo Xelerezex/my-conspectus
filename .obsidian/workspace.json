@@ -222,10 +222,12 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c355ce0913fc4bce",
+  "active": "2f5aa7631429950f",
   "lastOpenFiles": [
+    "images/neet-code-algorithms/std-vector.svg",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
+    "2..md",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/1. Ram.md",
     "images/array-in-memory.svg",
     "images/algorithm-foundation/algo-foundation-two-pointers-1.png",
@@ -268,8 +270,6 @@
     "notes/strong-ideas/14. Отладка как наука.md",
     "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
-    "notes/job-searching/Как сделать резюме.md"
+    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md"
   ]
 }
