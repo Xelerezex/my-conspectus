@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/strong-ideas/21. Генерация исключений -- зло.md",
+                "file": "notes/strong-ideas/22. Как и зачем отказываться от хранения логических значений в базе.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21. Генерация исключений -- зло"
+              "title": "22. Как и зачем отказываться от хранения логических значений в базе"
             }
           }
         ],
@@ -238,8 +238,9 @@
   },
   "active": "0fdaac0d73fb11ba",
   "lastOpenFiles": [
-    "notes/strong-ideas/20. Почему любые дефлотные параметры -- зло.md",
     "notes/strong-ideas/21. Генерация исключений -- зло.md",
+    "notes/strong-ideas/22. Как и зачем отказываться от хранения логических значений в базе.md",
+    "notes/strong-ideas/20. Почему любые дефлотные параметры -- зло.md",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
     "images/neet-code-algorithms/std-vector.svg",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
@@ -283,7 +284,6 @@
     "notes/strong-ideas/15. 5 советов по повышению качества проектирования программных систем.md",
     "notes/strong-ideas/14. Отладка как наука.md",
     "notes/strong-ideas/1. Три уровня рассуждений о программной системе.md",
-    "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
-    "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md"
+    "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md"
   ]
 }
