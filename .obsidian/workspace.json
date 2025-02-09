@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/1. Ram.md",
+                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Ram"
+              "title": "2. Static Arrays"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
+                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Static Arrays"
+              "title": "3. Dynamic Array"
             }
           }
         ],
@@ -224,8 +224,14 @@
   },
   "active": "c355ce0913fc4bce",
   "lastOpenFiles": [
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/1. Ram.md",
     "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
+    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
+    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/1. Ram.md",
+    "images/array-in-memory.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-1.png",
+    "images/algorithm-foundation",
+    "images/neet-code-algorithms",
+    "images/neet-code-algorithms/std-array.svg",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
     "notes/strong-ideas/20. Почему любые дефлотные параметры -- зло.md",
@@ -235,16 +241,13 @@
     "notes/courses/algorithms",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 2. The Two Pointers Method.md",
-    "images/algo-foundation-two-pointers-36.svg",
-    "images/algo-foundation-two-pointers-35 1.svg",
-    "images/algo-foundation-two-pointers-35.svg",
-    "images/algo-foundation-two-pointers-34.svg",
-    "images/algo-foundation-two-pointers-33.svg",
-    "images/algo-foundation-two-pointers-32.svg",
-    "images/algo-foundation-two-pointers-31.svg",
-    "images/algo-foundation-two-pointers-30.svg",
-    "images/algo-foundation-two-pointers-29.svg",
-    "images/algo-foundation-two-pointers-28 1.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-36.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-35 1.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-35.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-34.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-33.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-32.svg",
+    "images/algorithm-foundation/algo-foundation-two-pointers-31.svg",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 3. The Two Pointers Method.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 1. The Two Pointers Method.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
@@ -259,8 +262,6 @@
     "notes/strong-ideas/17. Важные принципы хорошего кода.md",
     "notes/strong-ideas/16. Три правила простого проектного дизайна.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-17-important-principles-of-good-code.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-16-3-rules-of-simple-project-design.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-.zip",
     "notes/Заметки по книгам/Малкольм Гладуэлл. Гении и Аутсайдеры.md",
     "notes/Заметки по книгам/Заметки по книге- Энтони Уильямса. Параллельное программирование на С++/Глава 4-.md",
     "notes/strong-ideas/15. 5 советов по повышению качества проектирования программных систем.md",
@@ -269,7 +270,6 @@
     "notes/strong-ideas/3. Три уровня рассуждений о программной системе - 3.md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция Qt-QML..md",
     "notes/interview-questions-shared/questions/companies/2GIS. Секция плюсов (вопросы + карточки подготовки)..md",
-    "notes/job-searching/Как сделать резюме.md",
-    "notes/interview-questions-shared/questions/cpp/C++. Что такое двойная диспетчеризация.md"
+    "notes/job-searching/Как сделать резюме.md"
   ]
 }
