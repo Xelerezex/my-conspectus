@@ -36,22 +36,12 @@
             }
           },
           {
-            "id": "f63de7894e478171",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "95ec71caef07dca4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
+                "file": "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
                 "mode": "source",
                 "source": false
               },
@@ -60,21 +50,21 @@
             }
           },
           {
-            "id": "d97c5426ab6e7a3f",
+            "id": "0e96df7fac0d33fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/27. Hash Implementation.md",
+                "file": "notes/courses/algorithms/neet-code/advanced-algorithms/4. Prefix Sums.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27. Hash Implementation"
+              "title": "4. Prefix Sums"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -131,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 345.5,
+    "collapsed": true
   },
   "right": {
     "id": "ff4cb059491e9634",
@@ -218,37 +209,43 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "d97c5426ab6e7a3f",
+  "active": "0e96df7fac0d33fd",
   "lastOpenFiles": [
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/27. Hash Implementation.md",
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
-    "images/neet-code-algorithms/std-unordered-map 1.svg",
-    "images/neet-code-algorithms/std-unordered-map.svg",
-    "images/neet-code-algorithms/std-unordered-set.svg",
+    "images/neet-code/advanced-algorithms/array-with-prefix-sums-1.svg",
+    "images/neet-code/advanced-algorithms/array-with-prefix-sums.svg",
+    "images/neet-code/advanced-algorithms/postfix-sums-of-subarrays.svg",
+    "images/neet-code/advanced-algorithms/postfix-subarrays.svg",
+    "images/neet-code/advanced-algorithms/prefix-sums-of-subarrays.svg",
+    "notes/courses/algorithms/neet-code/advanced-algorithms/4. Prefix Sums.md",
+    "images/neet-code/advanced-algorithms/prefix-subarrays.svg",
+    "images/neet-code/algorithms-&-data-structures-for-beginners",
+    "images/neet-code/advanced-algorithms",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
+    "notes/courses/algorithms/neet-code/TODO. NeetCode.md",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/27. Hash Implementation.md",
+    "notes/courses/algorithms/neet-code/advanced-algorithms",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
+    "images/neet-code/algorithms-&-data-structures-for-beginners/std-unordered-map 1.svg",
+    "images/neet-code/algorithms-&-data-structures-for-beginners/std-unordered-map.svg",
+    "images/neet-code/algorithms-&-data-structures-for-beginners/std-unordered-set.svg",
     "images/dfa-example-one.svg",
     "images/std-unordered-set.svg",
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
     "notes/strong-ideas/22. Как и зачем отказываться от хранения логических значений в базе.md",
     "notes/strong-ideas/21. Генерация исключений -- зло.md",
     "notes/strong-ideas/20. Почему любые дефлотные параметры -- зло.md",
-    "images/neet-code-algorithms/std-vector.svg",
     "2..md",
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners/1. Ram.md",
-    "images/array-in-memory.svg",
-    "images/algorithm-foundation/algo-foundation-two-pointers-1.png",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/1. Ram.md",
     "images/algorithm-foundation",
-    "images/neet-code-algorithms",
-    "images/neet-code-algorithms/std-array.svg",
+    "images/neet-code",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/The Two Pointers Method.md",
     "notes/Qt. Заметки/QML/2. QML. Quick starter..md",
-    "notes/courses/algorithms/neet-code-algorithms/algorithms-&-data-structures-for-beginners",
-    "notes/courses/algorithms/neet-code-algorithms",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners",
+    "notes/courses/algorithms/neet-code",
     "notes/courses/algorithms/Untitled.md",
     "notes/courses/algorithms",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/1-asymptotic-estimates-of-algorithms/Asymptotic estimates of algorithms.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 2. The Two Pointers Method.md",
-    "images/algorithm-foundation/algo-foundation-two-pointers-36.svg",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 3. The Two Pointers Method.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method/Task 1. The Two Pointers Method.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Linear Search.md",
@@ -257,15 +254,9 @@
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/3-two-pointers-method",
     "resources/unsorted/build_boost_instruction.txt",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-19-howto-prepare-tests-correctly.zip",
     "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-18-hack-from-functional-programming.zip",
     "notes/strong-ideas/17. Важные принципы хорошего кода.md",
     "notes/strong-ideas/16. Три правила простого проектного дизайна.md",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-17-important-principles-of-good-code.zip",
-    "notes/Заметки по книгам/Малкольм Гладуэлл. Гении и Аутсайдеры.md",
-    "notes/Заметки по книгам/Заметки по книге- Энтони Уильямса. Параллельное программирование на С++/Глава 4-.md",
-    "notes/strong-ideas/15. 5 советов по повышению качества проектирования программных систем.md",
-    "notes/strong-ideas/14. Отладка как наука.md"
+    "notes/Заметки по книгам/Малкольм Гладуэлл. Гении и Аутсайдеры.md"
   ]
 }
