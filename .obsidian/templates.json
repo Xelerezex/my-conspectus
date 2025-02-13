@@ -1,0 +1,4 @@
+{
+  "dateFormat": "{{date:DD-MM-YYYY}}",
+  "timeFormat": "{{time:HH-MM}}"
+}
