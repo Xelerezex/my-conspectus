@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/13. Bucket Sort.md",
+                "file": "notes/courses/algorithms/neet-code/advanced-algorithms/3. Two Pointers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13. Bucket Sort"
+              "title": "3. Two Pointers"
             }
           }
         ],
@@ -214,32 +214,34 @@
   },
   "active": "0e96df7fac0d33fd",
   "lastOpenFiles": [
-    "images/neet-code/algorithms-&-data-structures-for-beginners/bucket-sort/bucket-sort-values-in-bucket.svg",
+    "images/table-model-index.svg",
+    "images/texture_filtering.png",
+    "images/texture_wrapping.png",
+    "images/textures_coordinates.png",
+    "images/tree-model-item-relations.svg",
+    "images/treeitem-child-parent-index.drawio.svg",
+    "images/trigonometrical.svg",
+    "images/two_lines_intersection.svg",
+    "images/two-core-four-tasks.png",
+    "images/two-threads-stack.png",
+    "images/Untitled.svg",
+    "notes/courses/algorithms/neet-code/advanced-algorithms/3. Two Pointers.md",
+    "images/algorithm-foundation/notations",
+    "images/algorithm-foundation/two-pointers",
+    "images/algorithm-foundation/binary-search",
+    "images/neet-code/advanced-algorithms/two-pointers",
+    "images/neet-code/advanced-algorithms/prefix-sum",
+    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
     "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/13. Bucket Sort.md",
-    "images/neet-code/algorithms-&-data-structures-for-beginners/hash/std-unordered-map 1.svg",
-    "images/neet-code/algorithms-&-data-structures-for-beginners/hash/std-unordered-map.svg",
-    "images/neet-code/algorithms-&-data-structures-for-beginners/bucket-sort/bucket-sort-values.svg",
     "images/neet-code/algorithms-&-data-structures-for-beginners/bucket-sort",
     "images/neet-code/algorithms-&-data-structures-for-beginners/static-array",
     "images/neet-code/algorithms-&-data-structures-for-beginners/hash",
-    "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/26. Hash Usage.md",
     "notes/courses/algorithms/neet-code/advanced-algorithms/4. Prefix Sums.md",
     "notes/courses/algorithms/neet-code/TODO. NeetCode.md",
-    "images/neet-code/advanced-algorithms/2D-array-half-rectangle-prefix-sum-formula.svg",
-    "images/neet-code/advanced-algorithms/2D-array-half-rectangle-prefix-sum.svg",
-    "images/neet-code/advanced-algorithms/2D-array-with-2D-prefix-sum-rect-sum.svg",
-    "images/neet-code/advanced-algorithms/2D-array-with-2D-prefix-sum-accumulated.svg",
-    "images/neet-code/advanced-algorithms/2D-array-with-2D-prefix-sum.svg",
-    "images/neet-code/advanced-algorithms/2D-array-with-1D-prefix-sum.svg",
     "notes/strong-ideas/23. Сила низкоуровневых подходов.md",
     "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level.zip",
     "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level/23-the-power-of-low-level/23-the-power-of-low-level.html",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level/23-the-power-of-low-level",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level/kell17some-preprint.pdf",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level/23-the-power-of-low-level.zip",
-    "resources/lambda-brain-not-null/lambda-brain-not-null-23-the-power-of-low-level",
     "notes/strong-ideas/22. Как и зачем отказываться от хранения логических значений в базе.md",
-    "images/neet-code/algorithms-&-data-structures-for-beginners",
     "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/27. Hash Implementation.md",
     "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/3. Dynamic Array.md",
     "notes/courses/algorithms/neet-code/algorithms-&-data-structures-for-beginners/2. Static Arrays.md",
@@ -258,7 +260,6 @@
     "notes/strong-ideas/19. Как правильно готовить тесты.md",
     "Untitled.canvas",
     "notes/courses/algorithms/the-algorithmic-foundation-of-a-programmer/2-search-algorithms/Binary Search.md",
-    "notes/strong-ideas/18. Прикладной хак из функционального программирования.md",
-    "notes/strong-ideas/17. Важные принципы хорошего кода.md"
+    "notes/strong-ideas/18. Прикладной хак из функционального программирования.md"
   ]
 }
